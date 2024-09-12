@@ -17,10 +17,15 @@ $ pip install -r requirements.txt
 $ streamlit run app.py
 ```
 
+To run as a service:
+```
+$ python service.py
+```
+
 ## Contributors:
+* Pham Ky Cuong
 * Nguyen Dang Thinh
 * Robin Viltoriano
-* Pham Ky Cuong
 
 
 
