@@ -1,0 +1,24 @@
+2025-07-10 22:33:11,241 - INFO - Received process request for file ID: 154
+2025-07-10 22:33:11,243 - ERROR - Error processing file with ID 154: process_file_task() takes 2 positional arguments but 3 were given
+2025-07-10 22:33:47,760 - INFO - Received process request for file ID: 154
+2025-07-10 22:33:47,868 - ERROR - Error processing file with ID 154: Object of type FileService is not JSON serializable
+2025-07-10 22:40:01,254 - INFO - Received process request for file ID: 154
+2025-07-10 22:41:55,898 - INFO - Received process request for file ID: 154
+2025-07-10 22:41:55,901 - ERROR - Error processing file with ID 154: process_file_task() takes 1 positional argument but 2 were given
+2025-07-10 22:42:31,208 - INFO - Received process request for file ID: 154
+2025-07-10 22:42:47,518 - INFO - Received process request for file ID: 154
+2025-07-10 22:44:39,577 - INFO - Received process request for file ID: 154
+2025-07-10 22:44:54,947 - INFO - Received process request for file ID: 154
+2025-07-10 22:50:28,442 - INFO - Received process request for file ID: 154
+2025-07-10 22:53:04,296 - INFO - Processing file with ID: 154
+2025-07-10 22:53:04,332 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-10 22:53:04,333 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-10 22:53:04,333 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-10 22:54:32,269 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-10 22:54:32,270 - INFO - Saving data to vector database...
+2025-07-10 22:54:32,271 - INFO - Summarizing tables and texts...
+2025-07-10 22:54:46,689 - INFO - Summarizing images...
+2025-07-10 22:55:01,521 - INFO - Saving documents to vector store...
+2025-07-10 22:55:10,977 - INFO - Documents saved to vector store.
+2025-07-10 22:55:10,979 - INFO - Saving 12 texts to the database.
+2025-07-10 22:55:11,073 - INFO - Saving 7 images to the database.

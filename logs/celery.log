@@ -1,0 +1,1188 @@
+[2025-07-12 11:58:19,226: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-07-12 11:58:19,237: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-12 11:58:20,255: INFO/MainProcess] mingle: all alone
+[2025-07-12 11:58:20,280: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-12 11:58:28,996: INFO/MainProcess] Task app.celery.tasks.process_file_task[d36a36f1-457e-414c-add2-d976c4baa57d] received
+[2025-07-12 11:58:28,997: INFO/ForkPoolWorker-1] Processing file with ID: 153
+[2025-07-12 11:58:29,022: INFO/ForkPoolWorker-1] File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+[2025-07-12 11:58:29,024: INFO/ForkPoolWorker-1] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+[2025-07-12 11:58:29,024: INFO/ForkPoolWorker-1] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+[2025-07-12 11:58:29,031: INFO/ForkPoolWorker-1] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 11:58:29,991: INFO/MainProcess] Task app.celery.tasks.process_file_task[354610ed-26ed-4e03-a941-780e81483c81] received
+[2025-07-12 11:58:29,992: INFO/ForkPoolWorker-2] Processing file with ID: 153
+[2025-07-12 11:58:30,016: INFO/ForkPoolWorker-2] File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+[2025-07-12 11:58:30,018: INFO/ForkPoolWorker-2] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+[2025-07-12 11:58:30,018: INFO/ForkPoolWorker-2] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+[2025-07-12 11:58:30,026: INFO/ForkPoolWorker-2] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 11:58:30,753: INFO/ForkPoolWorker-1] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf ...
+[2025-07-12 11:58:31,144: INFO/MainProcess] Task app.celery.tasks.process_file_task[b865a632-e056-4f34-8e93-fee3f7afbe3f] received
+[2025-07-12 11:58:31,144: INFO/MainProcess] Scaling up 1 processes.
+[2025-07-12 11:58:31,577: INFO/ForkPoolWorker-2] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf ...
+[2025-07-12 11:58:31,604: INFO/ForkPoolWorker-3] Processing file with ID: 153
+[2025-07-12 11:58:31,622: INFO/ForkPoolWorker-3] File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+[2025-07-12 11:58:31,623: INFO/ForkPoolWorker-3] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+[2025-07-12 11:58:31,623: INFO/ForkPoolWorker-3] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+[2025-07-12 11:58:31,638: INFO/ForkPoolWorker-3] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 11:58:33,106: INFO/MainProcess] Task app.celery.tasks.process_file_task[9ffe5831-9b75-478d-8a39-34ff1ceebf3a] received
+[2025-07-12 11:58:33,107: INFO/MainProcess] Scaling up 1 processes.
+[2025-07-12 11:58:34,347: INFO/ForkPoolWorker-3] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf ...
+[2025-07-12 11:58:34,472: INFO/ForkPoolWorker-4] Processing file with ID: 153
+[2025-07-12 11:58:34,511: INFO/ForkPoolWorker-4] File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+[2025-07-12 11:58:34,516: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+[2025-07-12 11:58:34,517: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+[2025-07-12 11:58:34,528: INFO/ForkPoolWorker-4] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 11:58:34,556: INFO/MainProcess] Task app.celery.tasks.process_file_task[99b7b61e-faf1-478d-b825-704c2b00c365] received
+[2025-07-12 11:58:34,557: INFO/MainProcess] Scaling up 1 processes.
+[2025-07-12 11:58:35,313: INFO/ForkPoolWorker-5] Processing file with ID: 153
+[2025-07-12 11:58:35,351: INFO/ForkPoolWorker-5] File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+[2025-07-12 11:58:35,356: INFO/ForkPoolWorker-5] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+[2025-07-12 11:58:35,356: INFO/ForkPoolWorker-5] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+[2025-07-12 11:58:35,362: INFO/ForkPoolWorker-5] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 11:58:37,529: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf ...
+[2025-07-12 11:58:38,613: INFO/ForkPoolWorker-5] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf ...
+[2025-07-12 11:58:55,970: INFO/ForkPoolWorker-1] Loading the Table agent ...
+[2025-07-12 11:58:56,256: WARNING/ForkPoolWorker-1] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-12 11:58:56,256: INFO/ForkPoolWorker-1] Loading the table structure model ...
+[2025-07-12 11:58:56,912: INFO/ForkPoolWorker-1] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-12 11:58:57,107: INFO/ForkPoolWorker-2] Loading the Table agent ...
+[2025-07-12 11:58:57,149: INFO/ForkPoolWorker-1] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-12 11:58:57,159: INFO/ForkPoolWorker-1] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-12 11:58:57,486: WARNING/ForkPoolWorker-2] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-12 11:58:57,486: INFO/ForkPoolWorker-2] Loading the table structure model ...
+[2025-07-12 11:58:58,109: INFO/ForkPoolWorker-2] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-12 11:58:58,375: INFO/ForkPoolWorker-2] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-12 11:58:58,385: INFO/ForkPoolWorker-2] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-12 11:58:58,471: INFO/ForkPoolWorker-3] Loading the Table agent ...
+[2025-07-12 11:58:58,820: WARNING/ForkPoolWorker-3] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-12 11:58:58,820: INFO/ForkPoolWorker-3] Loading the table structure model ...
+[2025-07-12 11:58:59,471: INFO/ForkPoolWorker-3] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-12 11:58:59,611: INFO/ForkPoolWorker-5] Loading the Table agent ...
+[2025-07-12 11:58:59,613: INFO/ForkPoolWorker-4] Loading the Table agent ...
+[2025-07-12 11:58:59,708: INFO/ForkPoolWorker-3] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-12 11:58:59,716: INFO/ForkPoolWorker-3] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-12 11:58:59,940: WARNING/ForkPoolWorker-4] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-12 11:58:59,941: INFO/ForkPoolWorker-4] Loading the table structure model ...
+[2025-07-12 11:58:59,942: WARNING/ForkPoolWorker-5] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-12 11:58:59,943: INFO/ForkPoolWorker-5] Loading the table structure model ...
+[2025-07-12 11:59:00,581: INFO/ForkPoolWorker-5] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-12 11:59:00,814: INFO/ForkPoolWorker-5] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-12 11:59:00,821: INFO/ForkPoolWorker-5] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-12 11:59:00,890: INFO/ForkPoolWorker-4] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-12 11:59:01,048: INFO/ForkPoolWorker-1] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-12 11:59:01,048: INFO/ForkPoolWorker-1] Saving data to vector database...
+[2025-07-12 11:59:01,048: INFO/ForkPoolWorker-1] Summarizing tables and texts...
+[2025-07-12 11:59:01,129: INFO/ForkPoolWorker-4] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-12 11:59:01,141: INFO/ForkPoolWorker-4] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-12 11:59:02,293: INFO/ForkPoolWorker-2] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-12 11:59:02,293: INFO/ForkPoolWorker-2] Saving data to vector database...
+[2025-07-12 11:59:02,293: INFO/ForkPoolWorker-2] Summarizing tables and texts...
+[2025-07-12 11:59:03,572: INFO/ForkPoolWorker-3] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-12 11:59:03,572: INFO/ForkPoolWorker-3] Saving data to vector database...
+[2025-07-12 11:59:03,572: INFO/ForkPoolWorker-3] Summarizing tables and texts...
+[2025-07-12 11:59:04,214: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 11:59:04,237: INFO/ForkPoolWorker-1] Summarizing images...
+[2025-07-12 11:59:04,238: INFO/ForkPoolWorker-1] Saving documents to vector store...
+[2025-07-12 11:59:04,238: WARNING/ForkPoolWorker-1] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: This class is pending deprecation and may be removed in a future version. You can swap to using the `PGVector` implementation in `langchain_postgres`. Please read the guidelines in the doc-string of this class to follow prior to migrating as there are some differences between the implementations. See <https://github.com/langchain-ai/langchain-postgres> for details about the new implementation.
+  vector_store = PGVector(
+
+[2025-07-12 11:59:04,242: WARNING/ForkPoolWorker-1] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: Please use JSONB instead of JSON for metadata. This change will allow for more efficient querying that involves filtering based on metadata. Please note that filtering operators have been changed when using JSONB metadata to be prefixed with a $ sign to avoid name collisions with columns. If you're using an existing database, you will need to create a db migration for your metadata column to be JSONB and update your queries to use the new operators. 
+  vector_store = PGVector(
+
+[2025-07-12 11:59:04,494: INFO/ForkPoolWorker-5] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-12 11:59:04,494: INFO/ForkPoolWorker-5] Saving data to vector database...
+[2025-07-12 11:59:04,494: INFO/ForkPoolWorker-5] Summarizing tables and texts...
+[2025-07-12 11:59:04,847: INFO/ForkPoolWorker-4] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-12 11:59:04,848: INFO/ForkPoolWorker-4] Saving data to vector database...
+[2025-07-12 11:59:04,848: INFO/ForkPoolWorker-4] Summarizing tables and texts...
+[2025-07-12 11:59:05,688: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 11:59:05,706: INFO/ForkPoolWorker-2] Summarizing images...
+[2025-07-12 11:59:05,707: INFO/ForkPoolWorker-2] Saving documents to vector store...
+[2025-07-12 11:59:05,707: WARNING/ForkPoolWorker-2] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: This class is pending deprecation and may be removed in a future version. You can swap to using the `PGVector` implementation in `langchain_postgres`. Please read the guidelines in the doc-string of this class to follow prior to migrating as there are some differences between the implementations. See <https://github.com/langchain-ai/langchain-postgres> for details about the new implementation.
+  vector_store = PGVector(
+
+[2025-07-12 11:59:05,715: WARNING/ForkPoolWorker-2] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: Please use JSONB instead of JSON for metadata. This change will allow for more efficient querying that involves filtering based on metadata. Please note that filtering operators have been changed when using JSONB metadata to be prefixed with a $ sign to avoid name collisions with columns. If you're using an existing database, you will need to create a db migration for your metadata column to be JSONB and update your queries to use the new operators. 
+  vector_store = PGVector(
+
+[2025-07-12 11:59:05,978: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-12 11:59:06,174: INFO/ForkPoolWorker-1] Documents saved to vector store.
+[2025-07-12 11:59:06,174: INFO/ForkPoolWorker-1] Saving 1 texts to the database.
+[2025-07-12 11:59:06,194: INFO/ForkPoolWorker-1] File with ID 153 processed successfully.
+[2025-07-12 11:59:06,201: INFO/ForkPoolWorker-1] Task app.celery.tasks.process_file_task[d36a36f1-457e-414c-add2-d976c4baa57d] succeeded in 37.20427686899984s: {'status': 'success', 'file_id': 153}
+[2025-07-12 11:59:06,873: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-12 11:59:06,873: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 11:59:06,887: INFO/ForkPoolWorker-3] Summarizing images...
+[2025-07-12 11:59:06,888: INFO/ForkPoolWorker-3] Saving documents to vector store...
+[2025-07-12 11:59:06,888: WARNING/ForkPoolWorker-3] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: This class is pending deprecation and may be removed in a future version. You can swap to using the `PGVector` implementation in `langchain_postgres`. Please read the guidelines in the doc-string of this class to follow prior to migrating as there are some differences between the implementations. See <https://github.com/langchain-ai/langchain-postgres> for details about the new implementation.
+  vector_store = PGVector(
+
+[2025-07-12 11:59:06,892: WARNING/ForkPoolWorker-3] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: Please use JSONB instead of JSON for metadata. This change will allow for more efficient querying that involves filtering based on metadata. Please note that filtering operators have been changed when using JSONB metadata to be prefixed with a $ sign to avoid name collisions with columns. If you're using an existing database, you will need to create a db migration for your metadata column to be JSONB and update your queries to use the new operators. 
+  vector_store = PGVector(
+
+[2025-07-12 11:59:07,094: INFO/ForkPoolWorker-2] Documents saved to vector store.
+[2025-07-12 11:59:07,094: INFO/ForkPoolWorker-2] Saving 1 texts to the database.
+[2025-07-12 11:59:07,122: INFO/ForkPoolWorker-2] File with ID 153 processed successfully.
+[2025-07-12 11:59:07,128: INFO/ForkPoolWorker-2] Task app.celery.tasks.process_file_task[354610ed-26ed-4e03-a941-780e81483c81] succeeded in 37.13594036399991s: {'status': 'success', 'file_id': 153}
+[2025-07-12 11:59:07,693: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-12 11:59:07,828: INFO/ForkPoolWorker-3] Documents saved to vector store.
+[2025-07-12 11:59:07,829: INFO/ForkPoolWorker-3] Saving 1 texts to the database.
+[2025-07-12 11:59:07,850: INFO/ForkPoolWorker-3] File with ID 153 processed successfully.
+[2025-07-12 11:59:07,856: INFO/ForkPoolWorker-3] Task app.celery.tasks.process_file_task[b865a632-e056-4f34-8e93-fee3f7afbe3f] succeeded in 36.251426033000826s: {'status': 'success', 'file_id': 153}
+[2025-07-12 11:59:08,072: INFO/ForkPoolWorker-5] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 11:59:08,082: INFO/ForkPoolWorker-5] Summarizing images...
+[2025-07-12 11:59:08,083: INFO/ForkPoolWorker-5] Saving documents to vector store...
+[2025-07-12 11:59:08,083: WARNING/ForkPoolWorker-5] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: This class is pending deprecation and may be removed in a future version. You can swap to using the `PGVector` implementation in `langchain_postgres`. Please read the guidelines in the doc-string of this class to follow prior to migrating as there are some differences between the implementations. See <https://github.com/langchain-ai/langchain-postgres> for details about the new implementation.
+  vector_store = PGVector(
+
+[2025-07-12 11:59:08,087: WARNING/ForkPoolWorker-5] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: Please use JSONB instead of JSON for metadata. This change will allow for more efficient querying that involves filtering based on metadata. Please note that filtering operators have been changed when using JSONB metadata to be prefixed with a $ sign to avoid name collisions with columns. If you're using an existing database, you will need to create a db migration for your metadata column to be JSONB and update your queries to use the new operators. 
+  vector_store = PGVector(
+
+[2025-07-12 11:59:08,743: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 11:59:08,754: INFO/ForkPoolWorker-4] Summarizing images...
+[2025-07-12 11:59:08,755: INFO/ForkPoolWorker-4] Saving documents to vector store...
+[2025-07-12 11:59:08,755: WARNING/ForkPoolWorker-4] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: This class is pending deprecation and may be removed in a future version. You can swap to using the `PGVector` implementation in `langchain_postgres`. Please read the guidelines in the doc-string of this class to follow prior to migrating as there are some differences between the implementations. See <https://github.com/langchain-ai/langchain-postgres> for details about the new implementation.
+  vector_store = PGVector(
+
+[2025-07-12 11:59:08,758: WARNING/ForkPoolWorker-4] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: Please use JSONB instead of JSON for metadata. This change will allow for more efficient querying that involves filtering based on metadata. Please note that filtering operators have been changed when using JSONB metadata to be prefixed with a $ sign to avoid name collisions with columns. If you're using an existing database, you will need to create a db migration for your metadata column to be JSONB and update your queries to use the new operators. 
+  vector_store = PGVector(
+
+[2025-07-12 11:59:09,535: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-12 11:59:09,535: INFO/ForkPoolWorker-5] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-12 11:59:09,647: INFO/ForkPoolWorker-4] Documents saved to vector store.
+[2025-07-12 11:59:09,647: INFO/ForkPoolWorker-4] Saving 1 texts to the database.
+[2025-07-12 11:59:09,669: INFO/ForkPoolWorker-4] File with ID 153 processed successfully.
+[2025-07-12 11:59:09,674: INFO/ForkPoolWorker-4] Task app.celery.tasks.process_file_task[9ffe5831-9b75-478d-8a39-34ff1ceebf3a] succeeded in 35.2024302359996s: {'status': 'success', 'file_id': 153}
+[2025-07-12 11:59:09,687: INFO/ForkPoolWorker-5] Documents saved to vector store.
+[2025-07-12 11:59:09,688: INFO/ForkPoolWorker-5] Saving 1 texts to the database.
+[2025-07-12 11:59:09,710: INFO/ForkPoolWorker-5] File with ID 153 processed successfully.
+[2025-07-12 11:59:09,716: INFO/ForkPoolWorker-5] Task app.celery.tasks.process_file_task[99b7b61e-faf1-478d-b825-704c2b00c365] succeeded in 34.403134502000285s: {'status': 'success', 'file_id': 153}
+[2025-07-12 11:59:20,282: INFO/MainProcess] Scaling down 3 processes.
+[2025-07-12 11:59:47,445: INFO/MainProcess] Task app.celery.tasks.process_file_task[be0fe142-d1b2-4fee-a0b5-30da740b767b] received
+[2025-07-12 11:59:47,446: INFO/ForkPoolWorker-4] Processing file with ID: 154
+[2025-07-12 11:59:47,481: INFO/ForkPoolWorker-4] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 11:59:47,482: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 11:59:47,483: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 11:59:48,384: INFO/MainProcess] Task app.celery.tasks.process_file_task[c3defe54-af04-4dcf-995e-e280b259d69f] received
+[2025-07-12 11:59:48,385: INFO/ForkPoolWorker-5] Processing file with ID: 154
+[2025-07-12 11:59:48,427: INFO/ForkPoolWorker-5] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 11:59:48,427: INFO/ForkPoolWorker-5] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 11:59:48,428: INFO/ForkPoolWorker-5] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 11:59:49,555: INFO/MainProcess] Task app.celery.tasks.process_file_task[71ddf1b5-5aa8-4abc-b059-75dd41b50200] received
+[2025-07-12 11:59:49,556: INFO/MainProcess] Scaling up 1 processes.
+[2025-07-12 11:59:49,940: INFO/ForkPoolWorker-6] Processing file with ID: 154
+[2025-07-12 11:59:49,978: INFO/ForkPoolWorker-6] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 11:59:49,979: INFO/ForkPoolWorker-6] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 11:59:49,979: INFO/ForkPoolWorker-6] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 11:59:49,985: INFO/ForkPoolWorker-6] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 11:59:50,492: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 11:59:50,609: INFO/MainProcess] Task app.celery.tasks.process_file_task[b2616dd2-81bd-41fd-b6a6-513726354ae3] received
+[2025-07-12 11:59:50,610: INFO/MainProcess] Scaling up 1 processes.
+[2025-07-12 11:59:51,051: INFO/ForkPoolWorker-7] Processing file with ID: 154
+[2025-07-12 11:59:51,092: INFO/ForkPoolWorker-7] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 11:59:51,093: INFO/ForkPoolWorker-7] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 11:59:51,093: INFO/ForkPoolWorker-7] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 11:59:51,101: INFO/ForkPoolWorker-7] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 11:59:51,662: INFO/ForkPoolWorker-5] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 11:59:51,872: INFO/MainProcess] Task app.celery.tasks.process_file_task[9b1d26a7-9962-4354-ad55-dfaa96b4dd32] received
+[2025-07-12 11:59:51,872: INFO/MainProcess] Scaling up 1 processes.
+[2025-07-12 11:59:52,568: INFO/ForkPoolWorker-8] Processing file with ID: 154
+[2025-07-12 11:59:52,623: INFO/ForkPoolWorker-8] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 11:59:52,628: INFO/ForkPoolWorker-8] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 11:59:52,628: INFO/ForkPoolWorker-8] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 11:59:52,636: INFO/ForkPoolWorker-8] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 11:59:54,014: INFO/ForkPoolWorker-7] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 11:59:56,141: INFO/ForkPoolWorker-6] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 11:59:58,842: INFO/ForkPoolWorker-8] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 12:01:40,725: WARNING/MainProcess] Exception ignored in atexit callback
+[2025-07-12 12:01:40,725: WARNING/MainProcess] : 
+[2025-07-12 12:01:40,725: WARNING/MainProcess] <function _exit_function at 0x7f8591b4ae80>
+[2025-07-12 12:01:40,725: WARNING/MainProcess] Traceback (most recent call last):
+[2025-07-12 12:01:40,725: WARNING/MainProcess]   File "/usr/lib/python3.12/multiprocessing/util.py", line 337, in _exit_function
+[2025-07-12 12:01:40,726: WARNING/MainProcess]     
+[2025-07-12 12:01:40,726: WARNING/MainProcess] _run_finalizers(0)
+[2025-07-12 12:01:40,726: WARNING/MainProcess]   File "/usr/lib/python3.12/multiprocessing/util.py", line 303, in _run_finalizers
+[2025-07-12 12:01:40,726: WARNING/MainProcess]     
+[2025-07-12 12:01:40,726: WARNING/MainProcess] finalizer()
+[2025-07-12 12:01:40,726: WARNING/MainProcess]   File "/usr/lib/python3.12/multiprocessing/util.py", line 227, in __call__
+[2025-07-12 12:01:40,726: WARNING/MainProcess]     
+[2025-07-12 12:01:40,727: WARNING/MainProcess] res = self._callback(*self._args, **self._kwargs)
+[2025-07-12 12:01:40,727: WARNING/MainProcess]  
+[2025-07-12 12:01:40,727: WARNING/MainProcess]  
+[2025-07-12 12:01:40,727: WARNING/MainProcess]  
+[2025-07-12 12:01:40,727: WARNING/MainProcess]  
+[2025-07-12 12:01:40,727: WARNING/MainProcess]  
+[2025-07-12 12:01:40,727: WARNING/MainProcess]  
+[2025-07-12 12:01:40,727: WARNING/MainProcess]  
+[2025-07-12 12:01:40,727: WARNING/MainProcess]  
+[2025-07-12 12:01:40,727: WARNING/MainProcess]  
+[2025-07-12 12:01:40,727: WARNING/MainProcess]  
+[2025-07-12 12:01:40,727: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,727: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,727: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,727: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,727: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,727: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,727: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,727: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,728: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,729: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/billiard/pool.py", line 1660, in _terminate_pool
+[2025-07-12 12:01:40,730: WARNING/MainProcess]     
+[2025-07-12 12:01:40,730: WARNING/MainProcess] cls._help_stuff_finish(*help_stuff_finish_args)
+[2025-07-12 12:01:40,730: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 1358, in _help_stuff_finish
+[2025-07-12 12:01:40,731: WARNING/MainProcess]     
+[2025-07-12 12:01:40,731: WARNING/MainProcess] readable, _, again = _select(inqR, timeout=0.5)
+[2025-07-12 12:01:40,731: WARNING/MainProcess]  
+[2025-07-12 12:01:40,731: WARNING/MainProcess]  
+[2025-07-12 12:01:40,731: WARNING/MainProcess]  
+[2025-07-12 12:01:40,731: WARNING/MainProcess]  
+[2025-07-12 12:01:40,732: WARNING/MainProcess]  
+[2025-07-12 12:01:40,732: WARNING/MainProcess]  
+[2025-07-12 12:01:40,732: WARNING/MainProcess]  
+[2025-07-12 12:01:40,732: WARNING/MainProcess]  
+[2025-07-12 12:01:40,732: WARNING/MainProcess]  
+[2025-07-12 12:01:40,732: WARNING/MainProcess]  
+[2025-07-12 12:01:40,732: WARNING/MainProcess]  
+[2025-07-12 12:01:40,732: WARNING/MainProcess]  
+[2025-07-12 12:01:40,732: WARNING/MainProcess]  
+[2025-07-12 12:01:40,733: WARNING/MainProcess]  
+[2025-07-12 12:01:40,733: WARNING/MainProcess]  
+[2025-07-12 12:01:40,733: WARNING/MainProcess]  
+[2025-07-12 12:01:40,733: WARNING/MainProcess]  
+[2025-07-12 12:01:40,733: WARNING/MainProcess]  
+[2025-07-12 12:01:40,733: WARNING/MainProcess]  
+[2025-07-12 12:01:40,733: WARNING/MainProcess]  
+[2025-07-12 12:01:40,734: WARNING/MainProcess]  
+[2025-07-12 12:01:40,734: WARNING/MainProcess]  
+[2025-07-12 12:01:40,734: WARNING/MainProcess]  
+[2025-07-12 12:01:40,734: WARNING/MainProcess]  
+[2025-07-12 12:01:40,734: WARNING/MainProcess]  
+[2025-07-12 12:01:40,734: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,734: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,735: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,735: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,735: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,735: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,735: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,735: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,735: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,735: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,736: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,736: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,736: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,736: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,736: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,736: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,736: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,737: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,737: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,737: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,737: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,737: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,737: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,737: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,737: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,738: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,738: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 175, in _select
+[2025-07-12 12:01:40,738: WARNING/MainProcess]     
+[2025-07-12 12:01:40,738: WARNING/MainProcess] return poll(readers, writers, err, timeout)
+[2025-07-12 12:01:40,738: WARNING/MainProcess]  
+[2025-07-12 12:01:40,739: WARNING/MainProcess]  
+[2025-07-12 12:01:40,739: WARNING/MainProcess]  
+[2025-07-12 12:01:40,739: WARNING/MainProcess]  
+[2025-07-12 12:01:40,739: WARNING/MainProcess]  
+[2025-07-12 12:01:40,739: WARNING/MainProcess]  
+[2025-07-12 12:01:40,740: WARNING/MainProcess]  
+[2025-07-12 12:01:40,740: WARNING/MainProcess]  
+[2025-07-12 12:01:40,742: WARNING/MainProcess]  
+[2025-07-12 12:01:40,742: WARNING/MainProcess]  
+[2025-07-12 12:01:40,742: WARNING/MainProcess]  
+[2025-07-12 12:01:40,743: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,743: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,743: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,744: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,795: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,795: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,795: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,795: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,795: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,795: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,795: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,796: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,796: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,802: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,810: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,810: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,810: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,810: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,811: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,811: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,811: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,811: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,811: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,811: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,811: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,811: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,811: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,812: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,812: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,812: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,812: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,812: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,812: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,812: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,812: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,818: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,818: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 133, in _select_imp
+[2025-07-12 12:01:40,818: WARNING/MainProcess]     
+[2025-07-12 12:01:40,819: WARNING/MainProcess] events = poller.poll(timeout)
+[2025-07-12 12:01:40,822: WARNING/MainProcess]  
+[2025-07-12 12:01:40,822: WARNING/MainProcess]  
+[2025-07-12 12:01:40,822: WARNING/MainProcess]  
+[2025-07-12 12:01:40,822: WARNING/MainProcess]  
+[2025-07-12 12:01:40,823: WARNING/MainProcess]  
+[2025-07-12 12:01:40,823: WARNING/MainProcess]  
+[2025-07-12 12:01:40,823: WARNING/MainProcess]  
+[2025-07-12 12:01:40,823: WARNING/MainProcess]  
+[2025-07-12 12:01:40,823: WARNING/MainProcess]  
+[2025-07-12 12:01:40,823: WARNING/MainProcess]  
+[2025-07-12 12:01:40,823: WARNING/MainProcess]  
+[2025-07-12 12:01:40,823: WARNING/MainProcess]  
+[2025-07-12 12:01:40,823: WARNING/MainProcess]  
+[2025-07-12 12:01:40,824: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,824: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,824: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,824: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,824: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,824: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,824: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,824: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,825: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,825: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,825: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,825: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,825: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,825: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,825: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,825: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,825: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,826: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,826: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,826: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,826: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/apps/worker.py", line 300, in _handle_request
+[2025-07-12 12:01:40,826: WARNING/MainProcess]     
+[2025-07-12 12:01:40,827: WARNING/MainProcess] callback(worker)
+[2025-07-12 12:01:40,827: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/apps/worker.py", line 329, in on_hard_shutdown
+[2025-07-12 12:01:40,827: WARNING/MainProcess]     
+[2025-07-12 12:01:40,827: WARNING/MainProcess] raise WorkerTerminate(EX_FAILURE)
+[2025-07-12 12:01:40,827: WARNING/MainProcess] celery.exceptions
+[2025-07-12 12:01:40,827: WARNING/MainProcess] .
+[2025-07-12 12:01:40,828: WARNING/MainProcess] WorkerTerminate
+[2025-07-12 12:01:40,828: WARNING/MainProcess] : 
+[2025-07-12 12:01:40,828: WARNING/MainProcess] 1
+[2025-07-12 12:01:40,895: WARNING/MainProcess] Exception ignored in atexit callback
+[2025-07-12 12:01:40,895: WARNING/MainProcess] : 
+[2025-07-12 12:01:40,895: WARNING/MainProcess] <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+[2025-07-12 12:01:40,895: WARNING/MainProcess] Traceback (most recent call last):
+[2025-07-12 12:01:40,895: WARNING/MainProcess]   File "/usr/lib/python3.12/weakref.py", line 666, in _exitfunc
+[2025-07-12 12:01:40,903: WARNING/MainProcess]     
+[2025-07-12 12:01:40,903: WARNING/MainProcess] f()
+[2025-07-12 12:01:40,904: WARNING/MainProcess]   File "/usr/lib/python3.12/weakref.py", line 590, in __call__
+[2025-07-12 12:01:40,904: WARNING/MainProcess]     
+[2025-07-12 12:01:40,904: WARNING/MainProcess] return info.func(*info.args, **(info.kwargs or {}))
+[2025-07-12 12:01:40,904: WARNING/MainProcess]  
+[2025-07-12 12:01:40,904: WARNING/MainProcess]  
+[2025-07-12 12:01:40,904: WARNING/MainProcess]  
+[2025-07-12 12:01:40,905: WARNING/MainProcess]  
+[2025-07-12 12:01:40,905: WARNING/MainProcess]  
+[2025-07-12 12:01:40,905: WARNING/MainProcess]  
+[2025-07-12 12:01:40,905: WARNING/MainProcess]  
+[2025-07-12 12:01:40,905: WARNING/MainProcess]  
+[2025-07-12 12:01:40,905: WARNING/MainProcess]  
+[2025-07-12 12:01:40,905: WARNING/MainProcess]  
+[2025-07-12 12:01:40,905: WARNING/MainProcess]  
+[2025-07-12 12:01:40,905: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,905: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,906: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,906: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,906: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,906: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,906: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,906: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,906: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,906: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,906: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,907: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,907: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,907: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,907: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,907: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,907: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,907: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,907: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,907: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,908: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,908: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,908: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,908: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,908: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,908: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,908: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,908: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,908: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,908: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,909: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,909: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,909: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,909: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,909: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,909: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,909: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,909: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,909: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,910: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,910: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,910: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,910: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,910: WARNING/MainProcess] ^
+[2025-07-12 12:01:40,910: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/torch/library.py", line 449, in _del_library
+[2025-07-12 12:01:40,911: WARNING/MainProcess]     
+[2025-07-12 12:01:40,911: WARNING/MainProcess] handle.destroy()
+[2025-07-12 12:01:40,911: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/apps/worker.py", line 300, in _handle_request
+[2025-07-12 12:01:40,911: WARNING/MainProcess]     
+[2025-07-12 12:01:40,911: WARNING/MainProcess] callback(worker)
+[2025-07-12 12:01:40,911: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/apps/worker.py", line 329, in on_hard_shutdown
+[2025-07-12 12:01:40,912: WARNING/MainProcess]     
+[2025-07-12 12:01:40,912: WARNING/MainProcess] raise WorkerTerminate(EX_FAILURE)
+[2025-07-12 12:01:40,918: WARNING/MainProcess] celery.exceptions
+[2025-07-12 12:01:40,918: WARNING/MainProcess] .
+[2025-07-12 12:01:40,918: WARNING/MainProcess] WorkerTerminate
+[2025-07-12 12:01:40,918: WARNING/MainProcess] : 
+[2025-07-12 12:01:40,919: WARNING/MainProcess] 1
+[2025-07-12 12:01:55,381: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-07-12 12:01:55,387: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-12 12:01:56,401: INFO/MainProcess] mingle: all alone
+[2025-07-12 12:01:56,426: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-12 12:03:36,550: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-07-12 12:03:36,557: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-12 12:03:37,574: INFO/MainProcess] mingle: all alone
+[2025-07-12 12:03:37,599: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-12 12:04:09,703: INFO/MainProcess] Task app.celery.tasks.process_file_task[1ebdf25c-9c5b-4e09-894d-131b30b9e050] received
+[2025-07-12 12:04:09,731: WARNING/ForkPoolWorker-1] Task app.celery.tasks.process_file_task[1ebdf25c-9c5b-4e09-894d-131b30b9e050] reject requeue=False: process_file_task() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/autoretry.py", line 38, in run
+    return task._orig_run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_file_task() takes 1 positional argument but 2 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/task.py", line 760, in retry
+    S.apply_async()
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/canvas.py", line 400, in apply_async
+    return _apply(args, kwargs, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/task.py", line 566, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: process_file_task() takes 1 positional argument but 2 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/autoretry.py", line 60, in run
+    ret = task.retry(exc=exc, **retry_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/task.py", line 762, in retry
+    raise Reject(exc, requeue=False)
+celery.exceptions.Reject: (TypeError('process_file_task() takes 1 positional argument but 2 were given'), False)
+[2025-07-12 12:04:11,349: INFO/MainProcess] Task app.celery.tasks.process_file_task[ca206077-d00f-4fe8-8c7a-21f069a5cf00] received
+[2025-07-12 12:04:11,355: WARNING/ForkPoolWorker-1] Task app.celery.tasks.process_file_task[ca206077-d00f-4fe8-8c7a-21f069a5cf00] reject requeue=False: process_file_task() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/autoretry.py", line 38, in run
+    return task._orig_run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_file_task() takes 1 positional argument but 2 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/task.py", line 760, in retry
+    S.apply_async()
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/canvas.py", line 400, in apply_async
+    return _apply(args, kwargs, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/task.py", line 566, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: process_file_task() takes 1 positional argument but 2 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/autoretry.py", line 60, in run
+    ret = task.retry(exc=exc, **retry_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/task.py", line 762, in retry
+    raise Reject(exc, requeue=False)
+celery.exceptions.Reject: (TypeError('process_file_task() takes 1 positional argument but 2 were given'), False)
+[2025-07-12 12:04:13,087: INFO/MainProcess] Task app.celery.tasks.process_file_task[c9bcc28d-415b-4fe5-9816-74709fe2a1da] received
+[2025-07-12 12:04:13,093: WARNING/ForkPoolWorker-1] Task app.celery.tasks.process_file_task[c9bcc28d-415b-4fe5-9816-74709fe2a1da] reject requeue=False: process_file_task() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/autoretry.py", line 38, in run
+    return task._orig_run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_file_task() takes 1 positional argument but 2 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/task.py", line 760, in retry
+    S.apply_async()
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/canvas.py", line 400, in apply_async
+    return _apply(args, kwargs, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/task.py", line 566, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: process_file_task() takes 1 positional argument but 2 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/autoretry.py", line 60, in run
+    ret = task.retry(exc=exc, **retry_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/app/task.py", line 762, in retry
+    raise Reject(exc, requeue=False)
+celery.exceptions.Reject: (TypeError('process_file_task() takes 1 positional argument but 2 were given'), False)
+[2025-07-12 12:04:36,893: WARNING/MainProcess] Exception ignored in atexit callback
+[2025-07-12 12:04:36,894: WARNING/MainProcess] : 
+[2025-07-12 12:04:36,894: WARNING/MainProcess] <function _exit_function at 0x7f0deab5ae80>
+[2025-07-12 12:04:36,894: WARNING/MainProcess] Traceback (most recent call last):
+[2025-07-12 12:04:36,894: WARNING/MainProcess]   File "/usr/lib/python3.12/multiprocessing/util.py", line 337, in _exit_function
+[2025-07-12 12:04:36,894: WARNING/MainProcess]     
+[2025-07-12 12:04:36,894: WARNING/MainProcess] _run_finalizers(0)
+[2025-07-12 12:04:36,894: WARNING/MainProcess]   File "/usr/lib/python3.12/multiprocessing/util.py", line 303, in _run_finalizers
+[2025-07-12 12:04:36,894: WARNING/MainProcess]     
+[2025-07-12 12:04:36,895: WARNING/MainProcess] finalizer()
+[2025-07-12 12:04:36,895: WARNING/MainProcess]   File "/usr/lib/python3.12/multiprocessing/util.py", line 227, in __call__
+[2025-07-12 12:04:36,895: WARNING/MainProcess]     
+[2025-07-12 12:04:36,895: WARNING/MainProcess] res = self._callback(*self._args, **self._kwargs)
+[2025-07-12 12:04:36,895: WARNING/MainProcess]  
+[2025-07-12 12:04:36,895: WARNING/MainProcess]  
+[2025-07-12 12:04:36,895: WARNING/MainProcess]  
+[2025-07-12 12:04:36,895: WARNING/MainProcess]  
+[2025-07-12 12:04:36,895: WARNING/MainProcess]  
+[2025-07-12 12:04:36,895: WARNING/MainProcess]  
+[2025-07-12 12:04:36,895: WARNING/MainProcess]  
+[2025-07-12 12:04:36,895: WARNING/MainProcess]  
+[2025-07-12 12:04:36,895: WARNING/MainProcess]  
+[2025-07-12 12:04:36,895: WARNING/MainProcess]  
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,895: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,896: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,897: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/billiard/pool.py", line 1660, in _terminate_pool
+[2025-07-12 12:04:36,897: WARNING/MainProcess]     
+[2025-07-12 12:04:36,897: WARNING/MainProcess] cls._help_stuff_finish(*help_stuff_finish_args)
+[2025-07-12 12:04:36,897: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 1358, in _help_stuff_finish
+[2025-07-12 12:04:36,897: WARNING/MainProcess]     
+[2025-07-12 12:04:36,898: WARNING/MainProcess] readable, _, again = _select(inqR, timeout=0.5)
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,898: WARNING/MainProcess]  
+[2025-07-12 12:04:36,899: WARNING/MainProcess]  
+[2025-07-12 12:04:36,899: WARNING/MainProcess]  
+[2025-07-12 12:04:36,899: WARNING/MainProcess]  
+[2025-07-12 12:04:36,899: WARNING/MainProcess]  
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,899: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,900: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 175, in _select
+[2025-07-12 12:04:36,900: WARNING/MainProcess]     
+[2025-07-12 12:04:36,900: WARNING/MainProcess] return poll(readers, writers, err, timeout)
+[2025-07-12 12:04:36,900: WARNING/MainProcess]  
+[2025-07-12 12:04:36,900: WARNING/MainProcess]  
+[2025-07-12 12:04:36,900: WARNING/MainProcess]  
+[2025-07-12 12:04:36,900: WARNING/MainProcess]  
+[2025-07-12 12:04:36,900: WARNING/MainProcess]  
+[2025-07-12 12:04:36,901: WARNING/MainProcess]  
+[2025-07-12 12:04:36,901: WARNING/MainProcess]  
+[2025-07-12 12:04:36,901: WARNING/MainProcess]  
+[2025-07-12 12:04:36,901: WARNING/MainProcess]  
+[2025-07-12 12:04:36,901: WARNING/MainProcess]  
+[2025-07-12 12:04:36,901: WARNING/MainProcess]  
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,901: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,902: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 133, in _select_imp
+[2025-07-12 12:04:36,903: WARNING/MainProcess]     
+[2025-07-12 12:04:36,903: WARNING/MainProcess] events = poller.poll(timeout)
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess]  
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,903: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,904: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,904: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,904: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,904: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,904: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,904: WARNING/MainProcess] ^
+[2025-07-12 12:04:36,904: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/apps/worker.py", line 300, in _handle_request
+[2025-07-12 12:04:36,904: WARNING/MainProcess]     
+[2025-07-12 12:04:36,904: WARNING/MainProcess] callback(worker)
+[2025-07-12 12:04:36,904: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/apps/worker.py", line 329, in on_hard_shutdown
+[2025-07-12 12:04:36,904: WARNING/MainProcess]     
+[2025-07-12 12:04:36,904: WARNING/MainProcess] raise WorkerTerminate(EX_FAILURE)
+[2025-07-12 12:04:36,904: WARNING/MainProcess] celery.exceptions
+[2025-07-12 12:04:36,904: WARNING/MainProcess] .
+[2025-07-12 12:04:36,904: WARNING/MainProcess] WorkerTerminate
+[2025-07-12 12:04:36,904: WARNING/MainProcess] : 
+[2025-07-12 12:04:36,904: WARNING/MainProcess] 1
+[2025-07-12 12:04:47,668: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-07-12 12:04:47,677: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-12 12:04:48,693: INFO/MainProcess] mingle: all alone
+[2025-07-12 12:04:48,716: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-12 12:04:51,068: INFO/MainProcess] Task app.celery.tasks.process_file_task[796fa7a7-b007-4d4b-b945-29b322ce1d62] received
+[2025-07-12 12:04:51,070: INFO/ForkPoolWorker-1] Processing file with ID: 154
+[2025-07-12 12:04:51,117: INFO/ForkPoolWorker-1] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 12:04:51,118: INFO/ForkPoolWorker-1] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 12:04:51,118: INFO/ForkPoolWorker-1] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 12:04:51,124: INFO/ForkPoolWorker-1] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 12:04:52,936: INFO/MainProcess] Task app.celery.tasks.process_file_task[35d72b1f-5fba-4083-b410-8c479959f1bf] received
+[2025-07-12 12:04:52,937: INFO/ForkPoolWorker-2] Processing file with ID: 154
+[2025-07-12 12:04:52,989: INFO/ForkPoolWorker-2] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 12:04:52,989: INFO/ForkPoolWorker-2] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 12:04:52,989: INFO/ForkPoolWorker-2] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 12:04:52,995: INFO/ForkPoolWorker-2] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 12:04:54,715: INFO/MainProcess] Task app.celery.tasks.process_file_task[a6e4394b-faaf-4302-992e-6ee4e9be17c0] received
+[2025-07-12 12:04:54,715: INFO/MainProcess] Scaling up 1 processes.
+[2025-07-12 12:04:55,098: INFO/ForkPoolWorker-1] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 12:04:55,176: INFO/ForkPoolWorker-3] Processing file with ID: 154
+[2025-07-12 12:04:55,220: INFO/ForkPoolWorker-3] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 12:04:55,221: INFO/ForkPoolWorker-3] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 12:04:55,221: INFO/ForkPoolWorker-3] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 12:04:55,227: INFO/ForkPoolWorker-3] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 12:04:56,760: INFO/ForkPoolWorker-2] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 12:04:56,857: INFO/MainProcess] Task app.celery.tasks.process_file_task[7a92131c-7b9f-4241-9f26-08862c0d7ebc] received
+[2025-07-12 12:04:56,858: INFO/MainProcess] Scaling up 1 processes.
+[2025-07-12 12:04:57,328: INFO/ForkPoolWorker-4] Processing file with ID: 154
+[2025-07-12 12:04:57,371: INFO/ForkPoolWorker-4] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 12:04:57,371: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 12:04:57,372: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 12:04:57,377: INFO/ForkPoolWorker-4] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 12:04:59,657: INFO/ForkPoolWorker-3] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 12:05:03,085: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 12:05:07,293: WARNING/MainProcess] Exception ignored in atexit callback
+[2025-07-12 12:05:07,293: WARNING/MainProcess] : 
+[2025-07-12 12:05:07,294: WARNING/MainProcess] <function _exit_function at 0x7f54c1946e80>
+[2025-07-12 12:05:07,294: WARNING/MainProcess] Traceback (most recent call last):
+[2025-07-12 12:05:07,294: WARNING/MainProcess]   File "/usr/lib/python3.12/multiprocessing/util.py", line 337, in _exit_function
+[2025-07-12 12:05:07,294: WARNING/MainProcess]     
+[2025-07-12 12:05:07,294: WARNING/MainProcess] _run_finalizers(0)
+[2025-07-12 12:05:07,294: WARNING/MainProcess]   File "/usr/lib/python3.12/multiprocessing/util.py", line 303, in _run_finalizers
+[2025-07-12 12:05:07,294: WARNING/MainProcess]     
+[2025-07-12 12:05:07,295: WARNING/MainProcess] finalizer()
+[2025-07-12 12:05:07,295: WARNING/MainProcess]   File "/usr/lib/python3.12/multiprocessing/util.py", line 227, in __call__
+[2025-07-12 12:05:07,295: WARNING/MainProcess]     
+[2025-07-12 12:05:07,295: WARNING/MainProcess] res = self._callback(*self._args, **self._kwargs)
+[2025-07-12 12:05:07,295: WARNING/MainProcess]  
+[2025-07-12 12:05:07,295: WARNING/MainProcess]  
+[2025-07-12 12:05:07,295: WARNING/MainProcess]  
+[2025-07-12 12:05:07,295: WARNING/MainProcess]  
+[2025-07-12 12:05:07,295: WARNING/MainProcess]  
+[2025-07-12 12:05:07,295: WARNING/MainProcess]  
+[2025-07-12 12:05:07,295: WARNING/MainProcess]  
+[2025-07-12 12:05:07,295: WARNING/MainProcess]  
+[2025-07-12 12:05:07,295: WARNING/MainProcess]  
+[2025-07-12 12:05:07,295: WARNING/MainProcess]  
+[2025-07-12 12:05:07,295: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,295: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,295: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,295: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,296: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,297: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/billiard/pool.py", line 1660, in _terminate_pool
+[2025-07-12 12:05:07,298: WARNING/MainProcess]     
+[2025-07-12 12:05:07,298: WARNING/MainProcess] cls._help_stuff_finish(*help_stuff_finish_args)
+[2025-07-12 12:05:07,298: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 1358, in _help_stuff_finish
+[2025-07-12 12:05:07,298: WARNING/MainProcess]     
+[2025-07-12 12:05:07,298: WARNING/MainProcess] readable, _, again = _select(inqR, timeout=0.5)
+[2025-07-12 12:05:07,298: WARNING/MainProcess]  
+[2025-07-12 12:05:07,299: WARNING/MainProcess]  
+[2025-07-12 12:05:07,299: WARNING/MainProcess]  
+[2025-07-12 12:05:07,299: WARNING/MainProcess]  
+[2025-07-12 12:05:07,299: WARNING/MainProcess]  
+[2025-07-12 12:05:07,299: WARNING/MainProcess]  
+[2025-07-12 12:05:07,299: WARNING/MainProcess]  
+[2025-07-12 12:05:07,299: WARNING/MainProcess]  
+[2025-07-12 12:05:07,299: WARNING/MainProcess]  
+[2025-07-12 12:05:07,299: WARNING/MainProcess]  
+[2025-07-12 12:05:07,299: WARNING/MainProcess]  
+[2025-07-12 12:05:07,300: WARNING/MainProcess]  
+[2025-07-12 12:05:07,300: WARNING/MainProcess]  
+[2025-07-12 12:05:07,300: WARNING/MainProcess]  
+[2025-07-12 12:05:07,300: WARNING/MainProcess]  
+[2025-07-12 12:05:07,300: WARNING/MainProcess]  
+[2025-07-12 12:05:07,300: WARNING/MainProcess]  
+[2025-07-12 12:05:07,300: WARNING/MainProcess]  
+[2025-07-12 12:05:07,300: WARNING/MainProcess]  
+[2025-07-12 12:05:07,300: WARNING/MainProcess]  
+[2025-07-12 12:05:07,300: WARNING/MainProcess]  
+[2025-07-12 12:05:07,301: WARNING/MainProcess]  
+[2025-07-12 12:05:07,301: WARNING/MainProcess]  
+[2025-07-12 12:05:07,301: WARNING/MainProcess]  
+[2025-07-12 12:05:07,301: WARNING/MainProcess]  
+[2025-07-12 12:05:07,301: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,301: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,301: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,301: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,301: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,302: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,302: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,302: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,302: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,302: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,302: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,302: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,302: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,302: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,302: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,303: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,303: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,303: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,303: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,303: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,303: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,303: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,303: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,303: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,303: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,304: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,304: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 175, in _select
+[2025-07-12 12:05:07,304: WARNING/MainProcess]     
+[2025-07-12 12:05:07,304: WARNING/MainProcess] return poll(readers, writers, err, timeout)
+[2025-07-12 12:05:07,304: WARNING/MainProcess]  
+[2025-07-12 12:05:07,304: WARNING/MainProcess]  
+[2025-07-12 12:05:07,304: WARNING/MainProcess]  
+[2025-07-12 12:05:07,305: WARNING/MainProcess]  
+[2025-07-12 12:05:07,305: WARNING/MainProcess]  
+[2025-07-12 12:05:07,305: WARNING/MainProcess]  
+[2025-07-12 12:05:07,305: WARNING/MainProcess]  
+[2025-07-12 12:05:07,305: WARNING/MainProcess]  
+[2025-07-12 12:05:07,305: WARNING/MainProcess]  
+[2025-07-12 12:05:07,305: WARNING/MainProcess]  
+[2025-07-12 12:05:07,305: WARNING/MainProcess]  
+[2025-07-12 12:05:07,305: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,306: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,306: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,306: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,306: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,306: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,306: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,306: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,306: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,306: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,307: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,307: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,307: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,307: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,307: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,307: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,307: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,307: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,308: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,308: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,308: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,308: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,308: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,308: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,308: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,309: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,309: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,309: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,309: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,309: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,309: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,309: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,310: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,310: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,310: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,310: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,310: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 133, in _select_imp
+[2025-07-12 12:05:07,310: WARNING/MainProcess]     
+[2025-07-12 12:05:07,311: WARNING/MainProcess] events = poller.poll(timeout)
+[2025-07-12 12:05:07,311: WARNING/MainProcess]  
+[2025-07-12 12:05:07,311: WARNING/MainProcess]  
+[2025-07-12 12:05:07,311: WARNING/MainProcess]  
+[2025-07-12 12:05:07,311: WARNING/MainProcess]  
+[2025-07-12 12:05:07,311: WARNING/MainProcess]  
+[2025-07-12 12:05:07,311: WARNING/MainProcess]  
+[2025-07-12 12:05:07,311: WARNING/MainProcess]  
+[2025-07-12 12:05:07,312: WARNING/MainProcess]  
+[2025-07-12 12:05:07,314: WARNING/MainProcess]  
+[2025-07-12 12:05:07,314: WARNING/MainProcess]  
+[2025-07-12 12:05:07,314: WARNING/MainProcess]  
+[2025-07-12 12:05:07,314: WARNING/MainProcess]  
+[2025-07-12 12:05:07,315: WARNING/MainProcess]  
+[2025-07-12 12:05:07,315: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,315: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,315: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,315: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,315: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,315: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,315: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,315: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,316: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,316: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,316: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,316: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,316: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,316: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,316: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,316: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,316: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,317: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,317: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,317: WARNING/MainProcess] ^
+[2025-07-12 12:05:07,317: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/apps/worker.py", line 300, in _handle_request
+[2025-07-12 12:05:07,317: WARNING/MainProcess]     
+[2025-07-12 12:05:07,317: WARNING/MainProcess] callback(worker)
+[2025-07-12 12:05:07,317: WARNING/MainProcess]   File "/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/.venv/lib/python3.12/site-packages/celery/apps/worker.py", line 329, in on_hard_shutdown
+[2025-07-12 12:05:07,318: WARNING/MainProcess]     
+[2025-07-12 12:05:07,318: WARNING/MainProcess] raise WorkerTerminate(EX_FAILURE)
+[2025-07-12 12:05:07,322: WARNING/MainProcess] celery.exceptions
+[2025-07-12 12:05:07,323: WARNING/MainProcess] .
+[2025-07-12 12:05:07,323: WARNING/MainProcess] WorkerTerminate
+[2025-07-12 12:05:07,323: WARNING/MainProcess] : 
+[2025-07-12 12:05:07,323: WARNING/MainProcess] 1
+[2025-07-12 12:05:21,592: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-07-12 12:05:21,598: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-12 12:05:22,613: INFO/MainProcess] mingle: all alone
+[2025-07-12 12:05:22,639: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-12 14:17:55,531: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-07-12 14:17:55,537: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-12 14:17:56,553: INFO/MainProcess] mingle: all alone
+[2025-07-12 14:17:56,583: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-12 14:18:00,539: INFO/MainProcess] Task app.celery.tasks.process_file_task[ff5688ee-6860-45fa-a59e-457e4d8eb606] received
+[2025-07-12 14:18:00,541: INFO/ForkPoolWorker-1] Processing file with ID: 154
+[2025-07-12 14:18:00,581: INFO/ForkPoolWorker-1] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 14:18:00,582: INFO/ForkPoolWorker-1] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 14:18:00,582: INFO/ForkPoolWorker-1] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 14:18:00,587: INFO/ForkPoolWorker-1] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 14:18:01,860: INFO/MainProcess] Task app.celery.tasks.process_file_task[62c9c57a-81ba-4ba6-aa00-66320ec971ad] received
+[2025-07-12 14:18:01,861: INFO/ForkPoolWorker-2] Processing file with ID: 154
+[2025-07-12 14:18:01,913: INFO/ForkPoolWorker-2] File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+[2025-07-12 14:18:01,914: INFO/ForkPoolWorker-2] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+[2025-07-12 14:18:01,914: INFO/ForkPoolWorker-2] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+[2025-07-12 14:18:01,920: INFO/ForkPoolWorker-2] pikepdf C++ to Python logger bridge initialized
+[2025-07-12 14:18:04,601: INFO/ForkPoolWorker-1] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 14:18:05,646: INFO/ForkPoolWorker-2] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf ...
+[2025-07-12 14:18:56,140: INFO/ForkPoolWorker-1] Loading the Table agent ...
+[2025-07-12 14:18:56,429: WARNING/ForkPoolWorker-1] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-12 14:18:56,429: INFO/ForkPoolWorker-1] Loading the table structure model ...
+[2025-07-12 14:18:57,383: INFO/ForkPoolWorker-2] Loading the Table agent ...
+[2025-07-12 14:18:57,432: INFO/ForkPoolWorker-1] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-12 14:18:57,727: INFO/ForkPoolWorker-1] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-12 14:18:57,733: INFO/ForkPoolWorker-1] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-12 14:18:57,755: WARNING/ForkPoolWorker-2] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-12 14:18:57,756: INFO/ForkPoolWorker-2] Loading the table structure model ...
+[2025-07-12 14:18:58,342: INFO/ForkPoolWorker-2] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-12 14:18:58,578: INFO/ForkPoolWorker-2] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-12 14:18:58,586: INFO/ForkPoolWorker-2] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-12 14:19:38,771: INFO/ForkPoolWorker-1] Tables found: 0, Texts found: 12, Images found: 7
+[2025-07-12 14:19:38,771: INFO/ForkPoolWorker-1] Saving data to vector database...
+[2025-07-12 14:19:38,771: INFO/ForkPoolWorker-1] Summarizing tables and texts...
+[2025-07-12 14:19:40,110: INFO/ForkPoolWorker-2] Tables found: 0, Texts found: 12, Images found: 7
+[2025-07-12 14:19:40,110: INFO/ForkPoolWorker-2] Saving data to vector database...
+[2025-07-12 14:19:40,111: INFO/ForkPoolWorker-2] Summarizing tables and texts...
+[2025-07-12 14:19:41,656: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:41,995: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:42,474: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:42,481: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:42,821: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:43,396: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:43,538: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:43,594: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:43,830: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:43,896: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:45,702: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:46,366: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:46,980: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:46,980: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:46,981: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:47,287: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:47,287: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:47,492: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:48,311: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:48,810: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:49,131: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:49,950: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:49,957: INFO/ForkPoolWorker-1] Summarizing images...
+[2025-07-12 14:19:50,359: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:50,360: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:50,368: INFO/ForkPoolWorker-2] Summarizing images...
+[2025-07-12 14:19:56,001: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:56,040: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:56,156: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:56,712: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:56,816: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:57,118: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:57,274: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:57,693: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:57,834: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:19:57,860: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:20:02,852: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:20:03,056: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:20:03,061: INFO/ForkPoolWorker-2] Saving documents to vector store...
+[2025-07-12 14:20:03,061: WARNING/ForkPoolWorker-2] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: This class is pending deprecation and may be removed in a future version. You can swap to using the `PGVector` implementation in `langchain_postgres`. Please read the guidelines in the doc-string of this class to follow prior to migrating as there are some differences between the implementations. See <https://github.com/langchain-ai/langchain-postgres> for details about the new implementation.
+  vector_store = PGVector(
+
+[2025-07-12 14:20:03,064: WARNING/ForkPoolWorker-2] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: Please use JSONB instead of JSON for metadata. This change will allow for more efficient querying that involves filtering based on metadata. Please note that filtering operators have been changed when using JSONB metadata to be prefixed with a $ sign to avoid name collisions with columns. If you're using an existing database, you will need to create a db migration for your metadata column to be JSONB and update your queries to use the new operators. 
+  vector_store = PGVector(
+
+[2025-07-12 14:20:03,466: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:20:04,277: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-12 14:20:04,282: INFO/ForkPoolWorker-1] Saving documents to vector store...
+[2025-07-12 14:20:04,282: WARNING/ForkPoolWorker-1] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: This class is pending deprecation and may be removed in a future version. You can swap to using the `PGVector` implementation in `langchain_postgres`. Please read the guidelines in the doc-string of this class to follow prior to migrating as there are some differences between the implementations. See <https://github.com/langchain-ai/langchain-postgres> for details about the new implementation.
+  vector_store = PGVector(
+
+[2025-07-12 14:20:04,286: WARNING/ForkPoolWorker-1] /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/app/services/RAGService.py:111: LangChainPendingDeprecationWarning: Please use JSONB instead of JSON for metadata. This change will allow for more efficient querying that involves filtering based on metadata. Please note that filtering operators have been changed when using JSONB metadata to be prefixed with a $ sign to avoid name collisions with columns. If you're using an existing database, you will need to create a db migration for your metadata column to be JSONB and update your queries to use the new operators. 
+  vector_store = PGVector(
+
+[2025-07-12 14:20:04,941: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-12 14:20:05,414: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-12 14:20:06,436: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-12 14:20:06,876: INFO/ForkPoolWorker-2] Documents saved to vector store.
+[2025-07-12 14:20:06,876: INFO/ForkPoolWorker-2] Saving 12 texts to the database.
+[2025-07-12 14:20:06,907: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-12 14:20:07,084: INFO/ForkPoolWorker-2] Saving 7 images to the database.
+[2025-07-12 14:20:07,199: INFO/ForkPoolWorker-2] File with ID 154 processed successfully.
+[2025-07-12 14:20:07,205: INFO/ForkPoolWorker-2] Task app.celery.tasks.process_file_task[62c9c57a-81ba-4ba6-aa00-66320ec971ad] succeeded in 125.34385236399976s: {'status': 'success', 'file_id': 154}
+[2025-07-12 14:20:07,606: INFO/ForkPoolWorker-1] Documents saved to vector store.
+[2025-07-12 14:20:07,607: INFO/ForkPoolWorker-1] Saving 12 texts to the database.
+[2025-07-12 14:20:07,810: INFO/ForkPoolWorker-1] Saving 7 images to the database.
+[2025-07-12 14:20:07,924: INFO/ForkPoolWorker-1] File with ID 154 processed successfully.
+[2025-07-12 14:20:07,929: INFO/ForkPoolWorker-1] Task app.celery.tasks.process_file_task[ff5688ee-6860-45fa-a59e-457e4d8eb606] succeeded in 127.38892374699935s: {'status': 'success', 'file_id': 154}

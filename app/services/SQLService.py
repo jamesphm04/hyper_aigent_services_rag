@@ -3,142 +3,158 @@ import os
 import psycopg2
 from logging import Logger
 from app.entities.DocumentEntity import DocumentEntity
-from app.services.ConvertService import ConvertService
+import json
 
 class SQLService:
     def __init__(self, logger: Logger):
         self.logger = logger
-        self.convert_service = ConvertService(logger)   
-        url = urlparse(os.getenv("DATABASE_URL"))
-        self.connection = psycopg2.connect(
-            dbname=url.path[1:],
-            user=url.username,
-            password=url.password,
-            host=url.hostname,
-            port=url.port
-        )
-        self.cursor = self.connection.cursor()
+        self.db_config = self._get_db_config()
 
-    def close(self):
-        """Close the cursor and connection."""
-        if self.cursor:
-            self.cursor.close()
-        if self.connection:
-            self.connection.close()
-            
+    def _get_db_config(self):
+        url = urlparse(os.getenv("DATABASE_URL"))
+        return {
+            "dbname": url.path[1:],
+            "user": url.username,
+            "password": url.password,
+            "host": url.hostname,
+            "port": url.port
+        }
+
     def execute_query(self, query, params=None, commit=False, fetchone=False, fetchall=False):
         try:
-            self.cursor.execute(query, params)
-            if commit:
-                self.connection.commit()
-                return True
-            if fetchone:
-                return self.cursor.fetchone()
-            if fetchall:
-                return self.cursor.fetchall()
-            return None
+            with psycopg2.connect(**self.db_config) as connection:
+                with connection.cursor() as cur:
+                    cur.execute(query, params)
+
+                    if commit:
+                        connection.commit()
+                        return True
+
+                    if fetchone:
+                        return cur.fetchone()
+
+                    if fetchall:
+                        return cur.fetchall()
         except Exception as e:
             self.logger.error(f"An error occurred while executing the query: {e}")
-            if commit:
-                self.connection.rollback()
             return None
-    
+
     def test(self, query, params=None, commit=False):
-        try:
-            return self.execute_query(query, params, commit)
-        except Exception as e:
-            self.logger.error(f"An error occurred while testing the query: {e}")
-            return None
-        
+        return self.execute_query(query, params, commit)
+
     def convert_to_pdf(self, file_id: int):
+        from app.services.FileService import FileService
+        file_service = FileService(self.logger)
         try:
-            row = self.execute_query(
-                "SELECT content FROM documents WHERE id = %s", 
-                (file_id,), 
-                fetchone=True
-            )
-            if not row:
-                return None
-            
-            # Read the file content from the large object (OID)
-            large_object = self.connection.lobject(row[0], 'rb')
-            file_data = large_object.read()  # in bytes
-            large_object.close()
-            
-            pdf_data = self.convert_service.doc_to_pdf(file_data)  # Convert the file data to PDF
+            with psycopg2.connect(**self.db_config) as conn:
+                conn.autocommit = False
+                with conn.cursor() as cur:
+                    cur.execute("SELECT content FROM documents WHERE id = %s", (file_id,))
+                    row = cur.fetchone()
+                    if not row:
+                        return None
 
-            # Save the PDF data back to the database as a new large object
-            pdf_oid = self.connection.lobject(0, 'wb').oid
-            pdf_lo = self.connection.lobject(pdf_oid, 'wb')
-            pdf_lo.write(pdf_data)
-            pdf_lo.close()
+                    large_object = conn.lobject(row[0], 'rb')
+                    file_data = large_object.read()
+                    large_object.close()
 
-            # Update the document's content to point to the new PDF large object
-            self.execute_query(
-                """UPDATE documents 
-                    SET content = %s,
-                        updated_at = NOW(),
-                        type = 'pdf'
-                    WHERE id = %s
-                    """,
-                (pdf_oid, file_id),
-                commit=True
-            )
+                    pdf_data = file_service.doc_to_pdf(file_data)
 
-            return pdf_oid
+                    pdf_lo = conn.lobject(0, 'wb')
+                    pdf_lo.write(pdf_data)
+                    pdf_oid = pdf_lo.oid
+                    pdf_lo.close()
+
+                    cur.execute("""
+                        UPDATE documents 
+                        SET content = %s,
+                            updated_at = NOW(),
+                            type = 'pdf'
+                        WHERE id = %s
+                    """, (pdf_oid, file_id))
+                conn.commit()
+                return pdf_oid
         except Exception as e:
             self.logger.error(f"Error converting file with ID {file_id} to PDF: {e}")
-            self.connection.rollback()
             return None
-        
+
     def download_file_by_id(self, file_id: int):
         try:
-            row = self.execute_query(
-                "SELECT content, name, type FROM documents WHERE id = %s", 
-                (file_id,), 
-                fetchone=True
-            )
-            if not row:
-                return None
-            
-            
-            # Read the file content from the large object (OID)
-            large_object = self.connection.lobject(row[0], 'rb')
-            file_data = large_object.read()  # in bytes
-            large_object.close()
-            
-            # Save the file data to a local file
-            name = row[1]
-            type = row[2]
-            path = os.path.join(os.getcwd(), 'downloads', f"{name}.{type}")
-            
-            with open(path, 'wb') as f:
-                f.write(file_data)
-            self.logger.info(f"File with ID {file_id} downloaded to {path}")
-            return path
+            with psycopg2.connect(**self.db_config) as conn:
+                with conn.cursor() as cur:
+                    cur.execute("SELECT content, name, type FROM documents WHERE id = %s", (file_id,))
+                    row = cur.fetchone()
+                    if not row:
+                        return None
+
+                    large_object = conn.lobject(row[0], 'rb')
+                    file_data = large_object.read()
+                    large_object.close()
+
+                    name = row[1]
+                    type = row[2]
+                    path = os.path.join(os.getcwd(), 'downloads', f"{file_id}.{type}")
+                    os.makedirs(os.path.dirname(path), exist_ok=True)
+                    with open(path, 'wb') as f:
+                        f.write(file_data)
+                    self.logger.info(f"File with ID {file_id} downloaded to {path}")
+                    return path, name
         except Exception as e:
             self.logger.error(f"Error downloading file with ID {file_id} to local storage: {e}")
             return None
-        
+
     def get_file_by_id(self, file_id: int) -> DocumentEntity:
         try:
-            row = self.execute_query(
-                "SELECT * FROM documents WHERE id = %s", 
-                (file_id,), 
-                fetchone=True
-            )
-            if not row:
-                return None
-            entity = DocumentEntity(*row)
-            
-            # Read the file content from the large object (OID)
-            large_object = self.connection.lobject(entity.content, 'rb')
-            file_data = large_object.read() # in bytes
-            large_object.close()
-            
-            self.convert_service.doc_to_pdf(file_data)  # Convert the file data to PDF
-            
-            return entity
+            with psycopg2.connect(**self.db_config) as conn:
+                with conn.cursor() as cur:
+                    cur.execute("SELECT * FROM documents WHERE id = %s", (file_id,))
+                    row = cur.fetchone()
+                    if not row:
+                        return None
+                    entity = DocumentEntity(*row)
+
+                    large_object = conn.lobject(entity.content, 'rb')
+                    file_data = large_object.read()
+                    large_object.close()
+
+                    from app.services.FileService import FileService
+                    file_service = FileService(self.logger)
+                    file_service.doc_to_pdf(file_data)
+
+                    return entity
         except Exception as e:
             self.logger.error(f"Error retrieving file with ID {file_id}: {e}")
             return None
+
+    def save_original_chunks(self, file_id: int, chunks: list, chunk_ids: list, chunk_type: str):
+        for idx, comp_elem in enumerate(chunks):
+            try:
+                content_json = json.dumps([sub_elem.to_dict() for sub_elem in comp_elem.metadata.orig_elements])
+                query = """
+                    INSERT INTO public.rag_original_chunks (chunk_id, document_id, type, content)
+                    VALUES (%s, %s, %s, %s)
+                """
+                params = (chunk_ids[idx], file_id, chunk_type, content_json)
+                self.execute_query(query, params, commit=True)
+            except Exception as e:
+                self.logger.error(f"Error saving {chunk_type} chunk {idx} for file ID {file_id}: {e}")
+                continue
+
+    def save_original_tables(self, file_id: int, tables: list, table_ids: list):
+        self.save_original_chunks(file_id, tables, table_ids, 'table')
+
+    def save_original_texts(self, file_id: int, texts: list, text_ids: list):
+        self.save_original_chunks(file_id, texts, text_ids, 'text')
+
+    def save_original_images(self, file_id: int, images: list, image_ids: list):
+        for idx, base64_str in enumerate(images):
+            try:
+                query = """
+                    INSERT INTO public.rag_original_chunks (chunk_id, document_id, type, content)
+                    VALUES (%s, %s, %s, %s)
+                """
+                params = (image_ids[idx], file_id, 'image', base64_str)
+                self.execute_query(query, params, commit=True)
+            except Exception as e:
+                self.logger.error(f"Error saving image chunk {idx} for file ID {file_id}: {e}")
+                continue

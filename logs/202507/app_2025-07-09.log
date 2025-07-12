@@ -1,0 +1,32 @@
+2025-07-09 22:16:42,170 - ERROR - An error occurred while executing the query: trailing junk after numeric literal at or near "6a582356"
+LINE 3:             WHERE chunk_id = 6a582356-068c-48d9-b522-8609461...
+                                     ^
+
+2025-07-09 22:16:42,171 - ERROR - An error occurred while executing the query: trailing junk after numeric literal at or near "8ff7"
+LINE 3:             WHERE chunk_id = ec983596-8ff7-4606-9d16-f0d0a15...
+                                              ^
+
+2025-07-09 22:16:42,173 - ERROR - An error occurred while executing the query: trailing junk after numeric literal at or near "426a"
+LINE 3:             WHERE chunk_id = a982d3fa-a19e-426a-b6f4-975bfb4...
+                                                   ^
+
+2025-07-09 22:16:42,174 - ERROR - An error occurred while executing the query: trailing junk after numeric literal at or near "939d17bb"
+LINE 3:             WHERE chunk_id = 939d17bb-b7aa-421b-8593-b221fa6...
+                                     ^
+
+2025-07-09 22:16:55,412 - ERROR - An error occurred while executing the query: current transaction is aborted, commands ignored until end of transaction block
+
+2025-07-09 22:16:55,413 - ERROR - An error occurred while executing the query: current transaction is aborted, commands ignored until end of transaction block
+
+2025-07-09 22:16:55,414 - ERROR - An error occurred while executing the query: current transaction is aborted, commands ignored until end of transaction block
+
+2025-07-09 22:16:55,415 - ERROR - An error occurred while executing the query: current transaction is aborted, commands ignored until end of transaction block
+
+2025-07-09 22:17:30,826 - ERROR - An error occurred while executing the query: current transaction is aborted, commands ignored until end of transaction block
+
+2025-07-09 22:17:30,828 - ERROR - An error occurred while executing the query: current transaction is aborted, commands ignored until end of transaction block
+
+2025-07-09 22:17:30,829 - ERROR - An error occurred while executing the query: current transaction is aborted, commands ignored until end of transaction block
+
+2025-07-09 22:17:30,830 - ERROR - An error occurred while executing the query: current transaction is aborted, commands ignored until end of transaction block
+
