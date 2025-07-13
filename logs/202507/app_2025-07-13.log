@@ -1,0 +1,25 @@
+2025-07-13 09:29:57,327 - INFO - Received process request for file ID: 153
+2025-07-13 09:29:57,382 - INFO - Processing file with ID: 153
+2025-07-13 09:29:57,406 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-13 09:29:57,407 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-13 09:29:57,407 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-13 09:30:12,779 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-13 09:30:12,779 - INFO - Saving data to vector database...
+2025-07-13 09:30:12,779 - INFO - Summarizing tables and texts...
+2025-07-13 09:30:15,960 - INFO - Summarizing images...
+2025-07-13 09:30:15,961 - INFO - Saving documents to vector store...
+2025-07-13 09:30:18,643 - INFO - Documents saved to vector store.
+2025-07-13 09:30:18,643 - INFO - Saving 1 texts to the database.
+2025-07-13 09:30:18,664 - INFO - File with ID 153 processed successfully.
+2025-07-13 09:30:18,670 - INFO - Removed Redis key: processing:153
+2025-07-13 09:31:52,639 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What did Ky Cuong do on 12/6')
+2025-07-13 09:32:14,394 - INFO - Received ask request: AskRequestDTO(fileID=153, question='What did Ky Cuong do on 12/6')
+2025-07-13 09:38:46,948 - INFO - Received ask request: AskRequestDTO(fileID=153, question='What did Ky Cuong do on 12/6')
+2025-07-13 09:39:00,982 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is transformer')
+2025-07-13 09:39:02,994 - ERROR - Error processing ask request: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.2.image.source.base64: invalid base64 data'}}
+2025-07-13 09:39:09,275 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is transformer')
+2025-07-13 09:39:11,186 - ERROR - Error processing ask request: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.2.image.source.base64: invalid base64 data'}}
+2025-07-13 09:40:24,810 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is transformer')
+2025-07-13 09:40:26,450 - ERROR - Error processing ask request: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.2.image.source.base64: invalid base64 data'}}
+2025-07-13 10:04:55,613 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is transformer')
+2025-07-13 10:06:14,656 - INFO - Received ask request: AskRequestDTO(fileID=153, question='What is transformer')

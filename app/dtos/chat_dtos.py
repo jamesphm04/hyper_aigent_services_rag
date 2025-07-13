@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class AskRequestDTO:
-    chatID: int
+    fileID: int
     question: str
 
 @dataclass

@@ -52,15 +52,15 @@ class FileService:
             self.logger.error(f"Failed to convert DOCX to PDF: {e}")
             raise
         
-    def get_images_base64(self, chunks: list) -> list[str]:
-        images_b64 = []
+    def get_images(self, chunks: list) -> list[str]:
+        images = []
         for chunk in chunks:
             if "CompositeElement" in str(type(chunk)):
                 chunk_els = chunk.metadata.orig_elements
                 for el in chunk_els:
                     if "Image" in str(type(el)):
-                        images_b64.append(el.metadata.image_base64)
-        return images_b64
+                        images.append(el)
+        return images
     
     def get_tables_and_texts(self, chunks: list) -> tuple[list, list]:
         # separate tables from texts
@@ -105,13 +105,13 @@ class FileService:
             chunks = self.get_chunks(file_path)
             
             tables, texts = self.get_tables_and_texts(chunks)
-            images = self.get_images_base64(chunks)
+            images = self.get_images(chunks)
             
             self.logger.info(f"Tables found: {len(tables)}, Texts found: {len(texts)}, Images found: {len(images)}")
             
             # Summarize and save to vector database
             self.logger.info("Saving data to vector database...")
-            result = self.rag_service.summarize_and_save_to_vector_db(tables, texts, images)
+            result = self.rag_service.summarize_and_save_to_vector_db(file_id, tables, texts, images)
             
             if not result:
                 self.logger.error("Failed to summarize and save data to vector database.")

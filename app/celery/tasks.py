@@ -1,4 +1,4 @@
-from celery import current_app
+from app.redis.redis import redis_client
 from app.extensions import celery
 from celery.signals import worker_init
 
@@ -59,3 +59,12 @@ def process_file_task(id: int):
     except Exception as e:
         logger.error(f"Error processing file with ID {id}: {e}")
         return {"status": "error", "message": str(e)}
+    finally:
+        # Clean up Redis key after processing
+        redis_key = f"processing:{id}"
+        if redis_client.exists(redis_key):
+            redis_client.delete(redis_key)
+            logger.info(f"Removed Redis key: {redis_key}")
+        else:
+            logger.info(f"Redis key {redis_key} does not exist.")
+    

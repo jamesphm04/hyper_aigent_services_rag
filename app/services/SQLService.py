@@ -147,14 +147,27 @@ class SQLService:
         self.save_original_chunks(file_id, texts, text_ids, 'text')
 
     def save_original_images(self, file_id: int, images: list, image_ids: list):
-        for idx, base64_str in enumerate(images):
+        for idx, img_elm in enumerate(images):
             try:
                 query = """
                     INSERT INTO public.rag_original_chunks (chunk_id, document_id, type, content)
                     VALUES (%s, %s, %s, %s)
                 """
-                params = (image_ids[idx], file_id, 'image', base64_str)
+                params = (image_ids[idx], file_id, 'image', json.dumps(img_elm.to_dict()))
                 self.execute_query(query, params, commit=True)
             except Exception as e:
                 self.logger.error(f"Error saving image chunk {idx} for file ID {file_id}: {e}")
                 continue
+            
+    def is_processed(self, file_id: int) -> bool:
+        try:
+            with psycopg2.connect(**self.db_config) as conn:
+                with conn.cursor() as cur:
+                    cur.execute("SELECT * FROM rag_original_chunks WHERE document_id = %s", (file_id,))
+                    row = cur.fetchone()
+                    if row and row[0]:
+                        return True
+            return False
+        except Exception as e:
+            self.logger.error(f"Error checking if file with ID {file_id} is processed: {e}")
+            return False

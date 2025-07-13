@@ -1,19 +1,192 @@
 import os 
-from langchain_openai import ChatOpenAI
 from app.services.SQLService import SQLService
 from logging import Logger
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_anthropic import ChatAnthropic
 from langchain_core.output_parsers import StrOutputParser
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores.pgvector import PGVector
+from langchain_openai import OpenAIEmbeddings
+from langchain_postgres import PGVector
 from langchain.schema.document import Document
 import uuid
+from langchain_core.runnables import Runnable
+from typing import List
+import json
+from langchain_core.runnables import RunnablePassthrough, RunnableLambda
+from langchain_core.messages import HumanMessage
+from app.services.utils import render_page
+from collections import defaultdict
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_MODEL_NAME = os.getenv("OPENAI_MODEL_NAME")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 PG_VECTOR_CONNECTION_STRING = os.getenv("PG_VECTOR_CONNECTION_STRING")
+TOP_K = os.getenv("TOP_K", 3)
+
+def parse_docs(retriever_results: dict) -> dict:
+    images = []
+    texts = []
+    
+    retrieved_docs = retriever_results["result"]
+    
+    file_id = retriever_results["file_id"]
+    
+    for page_number, docs in retrieved_docs.items():
+        
+        # render_page(file_id, docs, page_number, False) #TODO
+        
+        for doc in docs:
+            if doc.metadata.get("type") == "Image":
+                images.append(doc.page_content)
+            else:
+                type_and_text = f"{doc.metadata.get('type')}: {doc.page_content}"
+                texts.append(type_and_text)
+    return {"images": images, "texts": texts}
+
+def build_prompt(kwargs):
+    docs_by_type = kwargs["context"]
+    user_question = kwargs["question"]
+
+    context_text = ""
+    if len(docs_by_type["texts"]) > 0:
+        for text_element in docs_by_type["texts"]:
+            context_text += text_element.strip() + "\n"
+
+    # construct prompt with context (including images)
+    prompt_template = f"""You are a document analysis assistant. Answer questions using ONLY the provided context. Follow these strict guidelines:
+
+    RESPONSE REQUIREMENTS:
+    - ONLY use information explicitly stated in the context
+    - DO NOT add external knowledge, assumptions, or inferences
+    - If information is not in the context, clearly state "Information not available in provided context"
+    - Be concise, logical, and professional
+    - Structure responses clearly with proper organization
+
+    CONTEXT ELEMENT TYPES:
+    - Formula: Mathematical formulas and equations
+    - FigureCaption: Text describing figures, charts, or images
+    - NarrativeText: Complete sentences forming coherent paragraphs
+    - ListItem: Individual items within lists
+    - Title: Document titles and headings
+    - Address: Physical addresses
+    - EmailAddress: Email contact information
+    - Image: Image metadata and descriptions
+    - PageBreak: Page separation indicators
+    - Table: Structured tabular data
+    - Header: Document headers
+    - Footer: Document footers
+    - CodeSnippet: Programming code or technical snippets
+    - PageNumber: Page numbering
+    - UncategorizedText: Other textual content
+
+    RESPONSE FORMAT:
+    1. Answer: State the answer clearly and concisely
+    2. Supporting Evidence: Quote relevant context sections
+    3. Limitations: Note if information is incomplete or unavailable
+
+    PROHIBITED ACTIONS:
+    - Do not speculate or make assumptions
+    - Do not use knowledge beyond the provided context
+    - Do not provide partial answers as complete information
+    - Do not rephrase context as new insights
+
+    CONTEXT:
+    {context_text}
+
+    QUESTION:
+    {user_question}
+
+    RESPONSE:"""
+
+    prompt_content = [{"type": "text", "text": prompt_template}]
+
+    if len(docs_by_type["images"]) > 0:
+        for image in docs_by_type["images"]:
+            
+            prompt_content.append(
+                {
+                    "type": "image_url",
+                    "image_url": {"url": f"data:image/jpeg;base64,{image}"},
+                }
+            )
+
+    return ChatPromptTemplate.from_messages(
+        [
+            HumanMessage(content=prompt_content),
+        ]
+    )
+class CustomRetriever(Runnable):
+    def __init__(self, file_id, embeddings: OpenAIEmbeddings, sql_service: SQLService, vector_store: PGVector, threshold=0.5, id_key="chunk_id"):
+        self.file_id = file_id
+        self.embeddings = embeddings
+        self.sql_service = sql_service
+        self.vector_store = vector_store
+        self.threshold = threshold
+        self.id_key = id_key
+
+    def invoke(self, input: str, config: dict = None) -> List[Document]:
+        # Step 1: Search vector DB
+        retrieved = self.vector_store.similarity_search_with_score(input, k=TOP_K)
+        filtered = [doc for doc, score in retrieved if score >= self.threshold]
+        chunk_ids = [doc.metadata[self.id_key] for doc in filtered]
+
+        # Step 2: Get full original content
+        result = defaultdict(list)  # page_number -> List[Document]
+        
+        for chunk_id in chunk_ids:
+            db_result = self.sql_service.execute_query(
+                f"SELECT * FROM public.rag_original_chunks WHERE chunk_id = %s",
+                (chunk_id,),
+                fetchone=True
+            )
+            
+            if not db_result:
+                continue
+            
+            
+            content = db_result[4]
+            chunk_type = db_result[3]
+            
+            if chunk_type == "image":
+                elm = json.loads(content)
+                
+                metadata = elm["metadata"]
+                
+                page_content = metadata.get("image_base64", "")
+                coordinates = metadata.get("coordinates", {})
+                page_number = metadata.get("page_number", 0)
+                
+                doc = Document(
+                    page_content=page_content,
+                    metadata={
+                        "type": "Image",
+                        "coordinates": coordinates,
+                        "page_number": page_number
+                    }
+                )
+                result[page_number].append(doc)
+            else:
+                elememnts = json.loads(content)
+                for elm in elememnts:
+                    metadata = elm["metadata"]
+                    
+                    type = elm["type"]
+                    page_content = elm.get("text", "")
+                    coordinates = metadata.get("coordinates", {})
+                    page_number = metadata.get("page_number", 0)
+                    
+                    if type == "Image":
+                        page_content = metadata.get("image_base64", "")
+                    
+                    doc = Document(
+                        page_content=page_content,
+                        metadata={
+                            "type": type,
+                            "coordinates": coordinates,
+                            "page_number": page_number
+                        }
+                    )
+                    result[page_number].append(doc)
+        return {"result": dict(result), "file_id": self.file_id}
 class RAGService:
     def __init__(self, logger: Logger, sql_service: SQLService):
         self.logger = logger
@@ -22,7 +195,6 @@ class RAGService:
         self.model = ChatAnthropic(temperature=0.5, model="claude-3-5-haiku-20241022", api_key=ANTHROPIC_API_KEY)
         self.embeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=OPENAI_API_KEY)
         
-        self.collection_name = "my_docs"
         self.id_key = "chunk_id"
         
         
@@ -74,13 +246,15 @@ class RAGService:
             )
         ]
         
+        images_base64 = [image.metadata.image_base64 for image in images]
+        
         prompt = ChatPromptTemplate.from_messages(messages)
         chain = prompt | self.model | StrOutputParser()
-        image_summaries = chain.batch(images, {"max_concurrency": 5})
+        image_summaries = chain.batch(images_base64, {"max_concurrency": 5})
         
         return image_summaries
 
-    def summarize_and_save_to_vector_db(self, tables, texts, images):
+    def summarize_and_save_to_vector_db(self, file_id, tables, texts, images):
         
         table_summaries, text_summaries = self.sumarize_tables_and_texts(tables, texts)
         image_summaries = self.summarize_images(images)
@@ -109,9 +283,9 @@ class RAGService:
         self.logger.info("Saving documents to vector store...")
         
         vector_store = PGVector(
-            embedding_function=self.embeddings,
-            collection_name=self.collection_name,
-            connection_string=PG_VECTOR_CONNECTION_STRING,
+            embeddings=self.embeddings,
+            collection_name=str(file_id),  # Use file_id as collection name
+            connection=PG_VECTOR_CONNECTION_STRING,
         )
         
         if text_summary_docs:
@@ -128,4 +302,36 @@ class RAGService:
             "image_ids": image_ids
         }
 
+    def get_retriever(self, file_id: str, threshold=0.3):
+        vector_store = PGVector(
+            embeddings=self.embeddings,
+            collection_name=str(file_id),
+            connection=PG_VECTOR_CONNECTION_STRING,
+        )
         
+        return CustomRetriever(
+            file_id=file_id,
+            embeddings=self.embeddings,
+            sql_service=self.sql_service,
+            vector_store=vector_store,
+            threshold=threshold,
+            id_key=self.id_key
+        )
+    
+    def get_chain(self, file_id: str) -> Runnable:
+        retriever = self.get_retriever(file_id)
+        
+        return (
+            {
+                "context": retriever | RunnableLambda(parse_docs),
+                "question": RunnablePassthrough(),
+            }
+            | RunnableLambda(build_prompt)
+            | self.model
+            | StrOutputParser()
+        )
+        
+    def run_chain(self, file_id, question: str) -> str:
+        chain = self.get_chain(str(file_id))
+        response = chain.invoke(question)
+        return response
