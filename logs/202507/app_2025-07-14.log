@@ -1,0 +1,203 @@
+2025-07-14 15:31:54,213 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is transformer')
+2025-07-14 15:36:28,409 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is transformer?')
+2025-07-14 15:37:12,163 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is BLEU?')
+2025-07-14 15:37:59,600 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is their final BLEU score?')
+2025-07-14 16:08:31,677 - INFO - Received ask request: AskRequestDTO(fileID=154, question='Summarize the results')
+2025-07-14 16:11:19,977 - INFO - Received ask request: AskRequestDTO(fileID=154, question='Who are the authors')
+2025-07-14 16:12:38,030 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is their best BLEU score ')
+2025-07-14 16:13:26,056 - INFO - Received ask request: AskRequestDTO(fileID=154, question='How many GPUs were used to train?')
+2025-07-14 17:33:21,246 - INFO - Received ask request: AskRequestDTO(fileID=154, question='How many GPUs were used to train?')
+2025-07-14 17:34:00,624 - INFO - Received ask request: AskRequestDTO(fileID=154, question='How many GPUs were used to train?')
+2025-07-14 17:36:31,283 - INFO - Received ask request: AskRequestDTO(fileID=154, question='How many GPUs were used to train?')
+2025-07-14 17:37:16,424 - INFO - Received ask request: AskRequestDTO(fileID=154, question='How many GPUs were used to train? In short')
+2025-07-14 17:39:51,428 - INFO - Received ask request: AskRequestDTO(fileID=153, question='WHo is Cuong')
+2025-07-14 17:40:08,458 - INFO - Received ask request: AskRequestDTO(fileID=153, question='Where does Cuong live ?')
+2025-07-14 17:41:22,694 - INFO - Received ask request: AskRequestDTO(fileID=202, question='What is this about ?')
+2025-07-14 18:40:41,413 - INFO - Received process request for file ID: 202
+2025-07-14 18:52:26,772 - INFO - Received process request for file ID: 252
+2025-07-14 18:52:58,009 - INFO - Received process request for file ID: 253
+2025-07-14 18:53:48,856 - INFO - Processing file with ID: 202
+2025-07-14 18:53:48,860 - INFO - Processing file with ID: 252
+2025-07-14 18:53:48,880 - INFO - File with ID 202 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/202.pdf
+2025-07-14 18:53:48,881 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/202.pdf, Name: a1906313_b.pdf
+2025-07-14 18:53:48,881 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/202.pdf...
+2025-07-14 18:53:48,882 - INFO - File with ID 252 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/252.pdf
+2025-07-14 18:53:48,882 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/252.pdf, Name: BDAP_A1.pdf
+2025-07-14 18:53:48,883 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/252.pdf...
+2025-07-14 18:53:49,324 - INFO - Processing file with ID: 253
+2025-07-14 18:53:49,345 - INFO - File with ID 253 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/253.pdf
+2025-07-14 18:53:49,345 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/253.pdf, Name: a1906313_b.pdf
+2025-07-14 18:53:49,345 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/253.pdf...
+2025-07-14 18:54:21,632 - INFO - Received process request for file ID: 254
+2025-07-14 18:54:23,083 - INFO - Processing file with ID: 254
+2025-07-14 18:54:23,155 - INFO - File with ID 254 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/254.pdf
+2025-07-14 18:54:23,166 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/254.pdf, Name: MBD_2025_Tri1_assignment3b_group10_report (1).pdf
+2025-07-14 18:54:23,167 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/254.pdf...
+2025-07-14 18:54:54,978 - INFO - Tables found: 0, Texts found: 4, Images found: 5
+2025-07-14 18:54:54,979 - INFO - Saving data to vector database...
+2025-07-14 18:54:54,979 - INFO - Summarizing tables and texts...
+2025-07-14 18:54:54,985 - INFO - Tables found: 0, Texts found: 4, Images found: 5
+2025-07-14 18:54:54,985 - INFO - Saving data to vector database...
+2025-07-14 18:54:54,985 - INFO - Summarizing tables and texts...
+2025-07-14 18:54:56,685 - INFO - Tables found: 0, Texts found: 4, Images found: 1
+2025-07-14 18:54:56,686 - INFO - Saving data to vector database...
+2025-07-14 18:54:56,686 - INFO - Summarizing tables and texts...
+2025-07-14 18:55:00,288 - INFO - Summarizing images...
+2025-07-14 18:55:00,915 - INFO - Summarizing images...
+2025-07-14 18:55:02,231 - INFO - Summarizing images...
+2025-07-14 18:55:07,168 - INFO - Saving documents to vector store...
+2025-07-14 18:55:07,879 - INFO - Saving documents to vector store...
+2025-07-14 18:55:09,665 - INFO - Documents saved to vector store.
+2025-07-14 18:55:09,665 - INFO - Saving 4 texts to the database.
+2025-07-14 18:55:09,772 - INFO - Saving 1 images to the database.
+2025-07-14 18:55:09,801 - INFO - File with ID 252 processed successfully.
+2025-07-14 18:55:09,808 - INFO - Removed Redis key: processing:252
+2025-07-14 18:55:10,003 - INFO - Saving documents to vector store...
+2025-07-14 18:55:10,787 - INFO - Documents saved to vector store.
+2025-07-14 18:55:10,788 - INFO - Saving 4 texts to the database.
+2025-07-14 18:55:10,916 - INFO - Saving 5 images to the database.
+2025-07-14 18:55:11,028 - INFO - File with ID 202 processed successfully.
+2025-07-14 18:55:11,034 - INFO - Redis key processing:202 does not exist.
+2025-07-14 18:55:12,497 - INFO - Documents saved to vector store.
+2025-07-14 18:55:12,497 - INFO - Saving 4 texts to the database.
+2025-07-14 18:55:12,620 - INFO - Saving 5 images to the database.
+2025-07-14 18:55:12,740 - INFO - File with ID 253 processed successfully.
+2025-07-14 18:55:12,746 - INFO - Removed Redis key: processing:253
+2025-07-14 18:55:36,695 - INFO - Received ask request: AskRequestDTO(fileID=252, question='What is the title of this pdf ?')
+2025-07-14 18:55:52,450 - INFO - Received ask request: AskRequestDTO(fileID=252, question='How many dataset do they have ?')
+2025-07-14 18:56:30,717 - INFO - Tables found: 0, Texts found: 17, Images found: 20
+2025-07-14 18:56:30,717 - INFO - Saving data to vector database...
+2025-07-14 18:56:30,717 - INFO - Summarizing tables and texts...
+2025-07-14 18:56:36,456 - INFO - Received ask request: AskRequestDTO(fileID=252, question='How many rows of Bitcoin dataset>')
+2025-07-14 18:56:46,182 - INFO - Summarizing images...
+2025-07-14 18:57:15,573 - INFO - Saving documents to vector store...
+2025-07-14 18:57:18,003 - INFO - Documents saved to vector store.
+2025-07-14 18:57:18,003 - INFO - Saving 17 texts to the database.
+2025-07-14 18:57:18,343 - INFO - Saving 20 images to the database.
+2025-07-14 18:57:18,695 - INFO - File with ID 254 processed successfully.
+2025-07-14 18:57:18,699 - INFO - Removed Redis key: processing:254
+2025-07-14 20:03:19,157 - INFO - Received process request for file ID: 255
+2025-07-14 20:03:19,188 - INFO - Processing file with ID: 255
+2025-07-14 20:03:19,211 - INFO - File with ID 255 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/255.pdf
+2025-07-14 20:03:19,212 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/255.pdf, Name: INVOICE NO. 44250707024.docx.pdf
+2025-07-14 20:03:19,212 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/255.pdf...
+2025-07-14 20:03:26,937 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-14 20:03:26,937 - INFO - Saving data to vector database...
+2025-07-14 20:03:26,937 - INFO - Summarizing tables and texts...
+2025-07-14 20:03:29,889 - INFO - Summarizing images...
+2025-07-14 20:03:29,890 - INFO - Saving documents to vector store...
+2025-07-14 20:03:30,615 - INFO - Documents saved to vector store.
+2025-07-14 20:03:30,615 - INFO - Saving 1 texts to the database.
+2025-07-14 20:03:30,642 - INFO - File with ID 255 processed successfully.
+2025-07-14 20:03:30,644 - INFO - Removed Redis key: processing:255
+2025-07-14 20:07:17,683 - INFO - Received process request for file ID: 302
+2025-07-14 20:07:17,715 - INFO - Processing file with ID: 302
+2025-07-14 20:07:17,739 - INFO - File with ID 302 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/302.pdf
+2025-07-14 20:07:17,740 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/302.pdf, Name: INVOICE NO. 44250707024.docx.pdf
+2025-07-14 20:07:17,740 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/302.pdf...
+2025-07-14 20:07:25,942 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-14 20:07:25,943 - INFO - Saving data to vector database...
+2025-07-14 20:07:25,943 - INFO - Summarizing tables and texts...
+2025-07-14 20:07:29,299 - INFO - Summarizing images...
+2025-07-14 20:07:29,300 - INFO - Saving documents to vector store...
+2025-07-14 20:07:30,341 - INFO - Documents saved to vector store.
+2025-07-14 20:07:30,341 - INFO - Saving 1 texts to the database.
+2025-07-14 20:07:30,360 - INFO - File with ID 302 processed successfully.
+2025-07-14 20:07:30,363 - INFO - Removed Redis key: processing:302
+2025-07-14 20:09:51,196 - INFO - Received process request for file ID: 303
+2025-07-14 20:09:51,231 - INFO - Processing file with ID: 303
+2025-07-14 20:09:51,256 - INFO - File with ID 303 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/303.pdf
+2025-07-14 20:09:51,258 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/303.pdf, Name: INVOICE NO. 44250623023.docx.pdf
+2025-07-14 20:09:51,259 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/303.pdf...
+2025-07-14 20:09:58,866 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-14 20:09:58,866 - INFO - Saving data to vector database...
+2025-07-14 20:09:58,866 - INFO - Summarizing tables and texts...
+2025-07-14 20:10:01,570 - INFO - Summarizing images...
+2025-07-14 20:10:01,571 - INFO - Saving documents to vector store...
+2025-07-14 20:10:02,172 - INFO - Documents saved to vector store.
+2025-07-14 20:10:02,172 - INFO - Saving 1 texts to the database.
+2025-07-14 20:10:02,191 - INFO - File with ID 303 processed successfully.
+2025-07-14 20:10:02,193 - INFO - Removed Redis key: processing:303
+2025-07-14 20:10:40,250 - INFO - Received process request for file ID: 304
+2025-07-14 20:10:40,282 - INFO - Processing file with ID: 304
+2025-07-14 20:10:40,303 - INFO - File with ID 304 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/304.pdf
+2025-07-14 20:10:40,304 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/304.pdf, Name: INVOICE NO. 44250707024.docx.pdf
+2025-07-14 20:10:40,305 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/304.pdf...
+2025-07-14 20:10:48,320 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-14 20:10:48,320 - INFO - Saving data to vector database...
+2025-07-14 20:10:48,320 - INFO - Summarizing tables and texts...
+2025-07-14 20:11:00,856 - INFO - Summarizing images...
+2025-07-14 20:11:00,857 - INFO - Saving documents to vector store...
+2025-07-14 20:11:01,890 - INFO - Documents saved to vector store.
+2025-07-14 20:11:01,890 - INFO - Saving 1 texts to the database.
+2025-07-14 20:11:01,912 - INFO - File with ID 304 processed successfully.
+2025-07-14 20:11:01,914 - INFO - Removed Redis key: processing:304
+2025-07-14 20:11:34,060 - INFO - Received process request for file ID: 305
+2025-07-14 20:11:34,096 - INFO - Processing file with ID: 305
+2025-07-14 20:11:34,117 - INFO - File with ID 305 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/305.pdf
+2025-07-14 20:11:34,118 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/305.pdf, Name: INVOICE NO. 44250623023.docx.pdf
+2025-07-14 20:11:34,118 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/305.pdf...
+2025-07-14 20:11:42,204 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-14 20:11:42,204 - INFO - Saving data to vector database...
+2025-07-14 20:11:42,205 - INFO - Summarizing tables and texts...
+2025-07-14 20:11:45,195 - INFO - Summarizing images...
+2025-07-14 20:11:45,196 - INFO - Saving documents to vector store...
+2025-07-14 20:11:45,928 - INFO - Documents saved to vector store.
+2025-07-14 20:11:45,928 - INFO - Saving 1 texts to the database.
+2025-07-14 20:11:45,947 - INFO - File with ID 305 processed successfully.
+2025-07-14 20:11:45,949 - INFO - Removed Redis key: processing:305
+2025-07-14 20:12:10,606 - INFO - Received process request for file ID: 306
+2025-07-14 20:12:10,651 - INFO - Processing file with ID: 306
+2025-07-14 20:12:10,674 - INFO - File with ID 306 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/306.pdf
+2025-07-14 20:12:10,676 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/306.pdf, Name: INVOICE NO. 44250707024.docx.pdf
+2025-07-14 20:12:10,676 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/306.pdf...
+2025-07-14 20:12:18,869 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-14 20:12:18,869 - INFO - Saving data to vector database...
+2025-07-14 20:12:18,870 - INFO - Summarizing tables and texts...
+2025-07-14 20:12:21,314 - INFO - Summarizing images...
+2025-07-14 20:12:21,315 - INFO - Saving documents to vector store...
+2025-07-14 20:12:22,477 - INFO - Documents saved to vector store.
+2025-07-14 20:12:22,477 - INFO - Saving 1 texts to the database.
+2025-07-14 20:12:22,497 - INFO - File with ID 306 processed successfully.
+2025-07-14 20:12:22,499 - INFO - Removed Redis key: processing:306
+2025-07-14 20:16:56,211 - INFO - Received ask request: AskRequestDTO(fileID=254, question='What is this assignemnt about ?')
+2025-07-14 20:23:44,224 - INFO - Received process request for file ID: 307
+2025-07-14 20:23:44,318 - INFO - Processing file with ID: 307
+2025-07-14 20:23:44,338 - INFO - File with ID 307 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/307.pdf
+2025-07-14 20:23:44,339 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/307.pdf, Name: BDAP_A1.pdf
+2025-07-14 20:23:44,339 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/307.pdf...
+2025-07-14 20:23:51,741 - INFO - Received ask request: AskRequestDTO(fileID=307, question='Hi')
+2025-07-14 20:23:51,743 - INFO - File 307 is already being processed.
+2025-07-14 20:24:07,682 - INFO - Tables found: 0, Texts found: 4, Images found: 1
+2025-07-14 20:24:07,682 - INFO - Saving data to vector database...
+2025-07-14 20:24:07,682 - INFO - Summarizing tables and texts...
+2025-07-14 20:24:11,920 - INFO - Summarizing images...
+2025-07-14 20:24:17,140 - INFO - Saving documents to vector store...
+2025-07-14 20:24:20,184 - INFO - Documents saved to vector store.
+2025-07-14 20:24:20,184 - INFO - Saving 4 texts to the database.
+2025-07-14 20:24:20,248 - INFO - Saving 1 images to the database.
+2025-07-14 20:24:20,264 - INFO - File with ID 307 processed successfully.
+2025-07-14 20:24:20,266 - INFO - Removed Redis key: processing:307
+2025-07-14 20:24:41,874 - INFO - Received ask request: AskRequestDTO(fileID=307, question='HI')
+2025-07-14 20:24:46,756 - INFO - Answer generated: AnswerDTO(answer='I apologize, but the context provided does not contain any specific instructions or information about how to respond to a generic "HI" greeting. The context appears to be a detailed research document about cryptocurrency sentiment analysis using Twitter data and Bitcoin-related tweets. \n\nIf you have a specific question about the document or its contents, I would be happy to help you by referencing the provided context. Otherwise, I\'ll maintain my focus on being a document analysis assistant ready to answer questions based strictly on the given context.', location=['file_location_placeholder'])
+2025-07-14 20:26:36,092 - INFO - Received process request for file ID: 308
+2025-07-14 20:26:36,159 - INFO - Processing file with ID: 308
+2025-07-14 20:26:36,190 - INFO - File with ID 308 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/308.pdf
+2025-07-14 20:26:36,191 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/308.pdf, Name: BDAP_A1.pdf
+2025-07-14 20:26:36,192 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/308.pdf...
+2025-07-14 20:26:48,056 - INFO - Received ask request: AskRequestDTO(fileID=308, question='HI')
+2025-07-14 20:26:48,057 - INFO - File 308 is already being processed.
+2025-07-14 20:26:56,345 - INFO - Received ask request: AskRequestDTO(fileID=308, question='Really')
+2025-07-14 20:26:56,346 - INFO - File 308 is already being processed.
+2025-07-14 20:27:03,823 - INFO - Tables found: 0, Texts found: 4, Images found: 1
+2025-07-14 20:27:03,824 - INFO - Saving data to vector database...
+2025-07-14 20:27:03,824 - INFO - Summarizing tables and texts...
+2025-07-14 20:27:11,359 - INFO - Summarizing images...
+2025-07-14 20:27:18,703 - INFO - Saving documents to vector store...
+2025-07-14 20:27:20,458 - INFO - Documents saved to vector store.
+2025-07-14 20:27:20,458 - INFO - Saving 4 texts to the database.
+2025-07-14 20:27:20,529 - INFO - Saving 1 images to the database.
+2025-07-14 20:27:20,546 - INFO - File with ID 308 processed successfully.
+2025-07-14 20:27:20,550 - INFO - Removed Redis key: processing:308
+2025-07-14 20:27:22,885 - INFO - Received ask request: AskRequestDTO(fileID=308, question='What is this assignme about')
+2025-07-14 20:27:31,714 - INFO - Answer generated: AnswerDTO(answer='Answer: This assignment is a research project about predicting cryptocurrency market movements by analyzing social media sentiment, specifically focusing on how Bitcoin-related tweets might influence the prices of altcoins like Binance Coin (BNB) and Ethereum (ETH).\n\nSupporting Evidence:\n1. Primary Research Question: "How does sentiment on X about Bitcoin affect the price direction of altcoins?"\n\n2. Key Objectives:\n- Analyze approximately 1.5 million Bitcoin-related tweets\n- Use sentiment analysis to understand public perception\n- Predict price directions or trading volumes of BNB and ETH\n\n3. Refined Research Question: "Can sentiment about Bitcoin on Twitter be used to predict the direction (up or down) of BNB and ETH prices at 1h, 6h, and 24h future intervals?"\n\n4. Backup Plan: If direct price prediction fails, the project will explore predicting trading volume using the same sentiment data.\n\nLimitations:\n- Requires careful data preprocessing\n- Needs to account for potential lead-lag effects in market reactions\n- Must handle data quality issues like bot-generated tweets and market manipulations\n\nThe project aims to demonstrate how social media sentiment can be used as a predictive tool in cryptocurrency trading, leveraging big data techniques and machine learning approaches.', location=['file_location_placeholder'])

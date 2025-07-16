@@ -1,0 +1,691 @@
+2025-07-12 11:09:57,609 - INFO - Received process request for file ID: 154
+2025-07-12 11:11:02,868 - INFO - Received process request for file ID: 154
+2025-07-12 11:16:30,763 - INFO - Received process request for file ID: 154
+2025-07-12 11:26:28,528 - INFO - Received process request for file ID: 154
+2025-07-12 11:26:28,643 - INFO - Processing file with ID: 154
+2025-07-12 11:26:28,686 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 11:26:28,687 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 11:26:28,687 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 11:27:46,309 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 11:27:46,310 - INFO - Saving data to vector database...
+2025-07-12 11:27:46,310 - INFO - Summarizing tables and texts...
+2025-07-12 11:27:57,398 - INFO - Received process request for file ID: 153
+2025-07-12 11:27:57,423 - INFO - Processing file with ID: 153
+2025-07-12 11:27:57,425 - ERROR - An error occurred while executing the query: SSL error: decryption failed or bad record mac
+
+2025-07-12 11:27:57,425 - ERROR - Error preparing data for RAG: cannot unpack non-iterable NoneType object
+2025-07-12 11:27:57,426 - ERROR - Failed to process file with ID 153.
+2025-07-12 11:27:57,809 - INFO - Summarizing images...
+2025-07-12 11:28:11,360 - INFO - Saving documents to vector store...
+2025-07-12 11:28:19,157 - INFO - Documents saved to vector store.
+2025-07-12 11:28:19,158 - INFO - Saving 12 texts to the database.
+2025-07-12 11:28:19,163 - ERROR - An error occurred while executing the query: SSL SYSCALL error: EOF detected
+
+2025-07-12 11:28:19,163 - ERROR - Error saving text chunk 0 for file ID 154: connection already closed
+2025-07-12 11:28:19,163 - ERROR - Error preparing data for RAG: connection already closed
+2025-07-12 11:28:19,164 - ERROR - Failed to process file with ID 154.
+2025-07-12 11:30:02,045 - INFO - Received process request for file ID: 102
+2025-07-12 11:30:02,072 - INFO - Processing file with ID: 102
+2025-07-12 11:30:02,087 - INFO - File with ID 102 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/102.pdf
+2025-07-12 11:30:02,088 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/102.pdf, Name: INVOICE NO. 44250623023.docx.pdf
+2025-07-12 11:30:02,088 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/102.pdf...
+2025-07-12 11:30:15,294 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:30:15,294 - INFO - Saving data to vector database...
+2025-07-12 11:30:15,295 - INFO - Summarizing tables and texts...
+2025-07-12 11:30:18,314 - INFO - Summarizing images...
+2025-07-12 11:30:18,315 - INFO - Saving documents to vector store...
+2025-07-12 11:30:21,771 - INFO - Documents saved to vector store.
+2025-07-12 11:30:21,771 - INFO - Saving 1 texts to the database.
+2025-07-12 11:30:21,782 - INFO - File with ID 102 processed successfully.
+2025-07-12 11:31:14,627 - INFO - Received process request for file ID: 102
+2025-07-12 11:31:14,661 - INFO - Processing file with ID: 102
+2025-07-12 11:31:14,664 - INFO - File with ID 102 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/102.pdf
+2025-07-12 11:31:14,664 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/102.pdf, Name: INVOICE NO. 44250623023.docx.pdf
+2025-07-12 11:31:14,664 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/102.pdf...
+2025-07-12 11:31:22,769 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:31:22,769 - INFO - Saving data to vector database...
+2025-07-12 11:31:22,770 - INFO - Summarizing tables and texts...
+2025-07-12 11:31:25,277 - INFO - Summarizing images...
+2025-07-12 11:31:25,277 - INFO - Saving documents to vector store...
+2025-07-12 11:31:26,821 - INFO - Documents saved to vector store.
+2025-07-12 11:31:26,821 - INFO - Saving 1 texts to the database.
+2025-07-12 11:31:26,827 - INFO - File with ID 102 processed successfully.
+2025-07-12 11:32:39,563 - INFO - Received process request for file ID: 102
+2025-07-12 11:32:39,604 - INFO - Processing file with ID: 102
+2025-07-12 11:32:39,608 - INFO - File with ID 102 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/102.pdf
+2025-07-12 11:32:39,608 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/102.pdf, Name: INVOICE NO. 44250623023.docx.pdf
+2025-07-12 11:32:39,608 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/102.pdf...
+2025-07-12 11:32:48,322 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:32:48,322 - INFO - Saving data to vector database...
+2025-07-12 11:32:48,322 - INFO - Summarizing tables and texts...
+2025-07-12 11:32:51,601 - INFO - Summarizing images...
+2025-07-12 11:32:51,602 - INFO - Saving documents to vector store...
+2025-07-12 11:32:52,540 - INFO - Documents saved to vector store.
+2025-07-12 11:32:52,540 - INFO - Saving 1 texts to the database.
+2025-07-12 11:32:52,548 - INFO - File with ID 102 processed successfully.
+2025-07-12 11:34:42,761 - INFO - Received process request for file ID: 154
+2025-07-12 11:34:42,797 - INFO - Processing file with ID: 154
+2025-07-12 11:34:42,818 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 11:34:42,818 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 11:34:42,818 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 11:35:54,748 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 11:35:54,748 - INFO - Saving data to vector database...
+2025-07-12 11:35:54,749 - INFO - Summarizing tables and texts...
+2025-07-12 11:36:05,346 - INFO - Summarizing images...
+2025-07-12 11:36:19,958 - INFO - Saving documents to vector store...
+2025-07-12 11:36:23,502 - INFO - Documents saved to vector store.
+2025-07-12 11:36:23,502 - INFO - Saving 12 texts to the database.
+2025-07-12 11:36:23,568 - INFO - Saving 7 images to the database.
+2025-07-12 11:36:23,602 - INFO - File with ID 154 processed successfully.
+2025-07-12 11:41:03,291 - INFO - Received process request for file ID: 154
+2025-07-12 11:41:03,321 - INFO - Processing file with ID: 154
+2025-07-12 11:41:03,339 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 11:41:03,339 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 11:41:03,339 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 11:41:05,272 - INFO - Received process request for file ID: 154
+2025-07-12 11:41:05,297 - INFO - Processing file with ID: 154
+2025-07-12 11:41:05,298 - ERROR - An error occurred while executing the query: SSL error: decryption failed or bad record mac
+
+2025-07-12 11:41:05,299 - ERROR - Error preparing data for RAG: cannot unpack non-iterable NoneType object
+2025-07-12 11:41:05,299 - ERROR - Failed to process file with ID 154.
+2025-07-12 11:42:17,930 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 11:42:17,930 - INFO - Saving data to vector database...
+2025-07-12 11:42:17,930 - INFO - Summarizing tables and texts...
+2025-07-12 11:42:29,106 - INFO - Summarizing images...
+2025-07-12 11:42:42,276 - INFO - Saving documents to vector store...
+2025-07-12 11:42:45,539 - INFO - Documents saved to vector store.
+2025-07-12 11:42:45,539 - INFO - Saving 12 texts to the database.
+2025-07-12 11:42:45,542 - ERROR - An error occurred while executing the query: SSL SYSCALL error: EOF detected
+
+2025-07-12 11:42:45,543 - ERROR - Error saving text chunk 0 for file ID 154: connection already closed
+2025-07-12 11:42:45,543 - ERROR - Error preparing data for RAG: connection already closed
+2025-07-12 11:42:45,543 - ERROR - Failed to process file with ID 154.
+2025-07-12 11:45:39,762 - INFO - Received process request for file ID: 154
+2025-07-12 11:45:39,857 - INFO - Processing file with ID: 154
+2025-07-12 11:45:39,873 - ERROR - Error downloading file with ID 154 to local storage: 'SQLService' object has no attribute 'connection'
+2025-07-12 11:45:39,874 - ERROR - Error preparing data for RAG: cannot unpack non-iterable NoneType object
+2025-07-12 11:45:39,874 - ERROR - Failed to process file with ID 154.
+2025-07-12 11:50:00,414 - INFO - Received process request for file ID: 154
+2025-07-12 11:50:00,510 - INFO - Processing file with ID: 154
+2025-07-12 11:50:00,550 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 11:50:00,551 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 11:50:00,551 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 11:50:05,861 - INFO - Received process request for file ID: 153
+2025-07-12 11:50:05,887 - INFO - Processing file with ID: 153
+2025-07-12 11:50:05,908 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:50:05,909 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:50:05,909 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:50:24,882 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:50:24,883 - INFO - Saving data to vector database...
+2025-07-12 11:50:24,883 - INFO - Summarizing tables and texts...
+2025-07-12 11:50:28,043 - INFO - Summarizing images...
+2025-07-12 11:50:28,045 - INFO - Saving documents to vector store...
+2025-07-12 11:50:29,268 - INFO - Documents saved to vector store.
+2025-07-12 11:50:29,268 - INFO - Saving 1 texts to the database.
+2025-07-12 11:50:29,298 - INFO - File with ID 153 processed successfully.
+2025-07-12 11:53:59,291 - INFO - Received process request for file ID: 153
+2025-07-12 11:53:59,319 - INFO - Processing file with ID: 153
+2025-07-12 11:53:59,340 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:53:59,340 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:53:59,341 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:54:01,295 - INFO - Received process request for file ID: 153
+2025-07-12 11:54:01,324 - INFO - Processing file with ID: 153
+2025-07-12 11:54:01,343 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:54:01,344 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:54:01,344 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:54:03,678 - INFO - Received process request for file ID: 153
+2025-07-12 11:54:05,027 - INFO - Processing file with ID: 153
+2025-07-12 11:54:05,050 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:54:05,053 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:54:05,053 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:54:12,984 - INFO - Received process request for file ID: 153
+2025-07-12 11:54:13,748 - INFO - Processing file with ID: 153
+2025-07-12 11:54:13,767 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:54:13,770 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:54:13,771 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:54:20,483 - INFO - Received process request for file ID: 153
+2025-07-12 11:54:21,102 - INFO - Processing file with ID: 153
+2025-07-12 11:54:21,119 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:54:21,120 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:54:21,120 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:54:21,297 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:54:21,297 - INFO - Saving data to vector database...
+2025-07-12 11:54:21,298 - INFO - Summarizing tables and texts...
+2025-07-12 11:54:24,013 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:54:24,013 - INFO - Saving data to vector database...
+2025-07-12 11:54:24,021 - INFO - Summarizing tables and texts...
+2025-07-12 11:54:24,891 - INFO - Summarizing images...
+2025-07-12 11:54:24,892 - INFO - Saving documents to vector store...
+2025-07-12 11:54:26,028 - INFO - Documents saved to vector store.
+2025-07-12 11:54:26,029 - INFO - Saving 1 texts to the database.
+2025-07-12 11:54:26,071 - INFO - File with ID 153 processed successfully.
+2025-07-12 11:54:26,576 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:54:26,577 - INFO - Saving data to vector database...
+2025-07-12 11:54:26,577 - INFO - Summarizing tables and texts...
+2025-07-12 11:54:27,249 - INFO - Summarizing images...
+2025-07-12 11:54:27,251 - INFO - Saving documents to vector store...
+2025-07-12 11:54:28,666 - ERROR - Error preparing data for RAG: (psycopg2.OperationalError) SSL error: decryption failed or bad record mac
+
+[SQL: SELECT langchain_pg_collection.name AS langchain_pg_collection_name, langchain_pg_collection.cmetadata AS langchain_pg_collection_cmetadata, langchain_pg_collection.uuid AS langchain_pg_collection_uuid 
+FROM langchain_pg_collection 
+WHERE langchain_pg_collection.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 'my_docs', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-12 11:54:28,666 - ERROR - Failed to process file with ID 153.
+2025-07-12 11:54:30,204 - INFO - Summarizing images...
+2025-07-12 11:54:30,205 - INFO - Saving documents to vector store...
+2025-07-12 11:54:31,628 - ERROR - Error preparing data for RAG: (psycopg2.OperationalError) SSL SYSCALL error: EOF detected
+
+[SQL: SELECT langchain_pg_collection.name AS langchain_pg_collection_name, langchain_pg_collection.cmetadata AS langchain_pg_collection_cmetadata, langchain_pg_collection.uuid AS langchain_pg_collection_uuid 
+FROM langchain_pg_collection 
+WHERE langchain_pg_collection.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 'my_docs', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-12 11:54:31,628 - ERROR - Failed to process file with ID 153.
+2025-07-12 11:54:32,138 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:54:32,139 - INFO - Saving data to vector database...
+2025-07-12 11:54:32,139 - INFO - Summarizing tables and texts...
+2025-07-12 11:54:35,733 - INFO - Summarizing images...
+2025-07-12 11:54:35,733 - INFO - Saving documents to vector store...
+2025-07-12 11:54:36,615 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:54:36,616 - INFO - Saving data to vector database...
+2025-07-12 11:54:36,616 - INFO - Summarizing tables and texts...
+2025-07-12 11:54:36,737 - ERROR - Error preparing data for RAG: (psycopg2.OperationalError) SSL SYSCALL error: EOF detected
+
+[SQL: SELECT langchain_pg_collection.name AS langchain_pg_collection_name, langchain_pg_collection.cmetadata AS langchain_pg_collection_cmetadata, langchain_pg_collection.uuid AS langchain_pg_collection_uuid 
+FROM langchain_pg_collection 
+WHERE langchain_pg_collection.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 'my_docs', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-12 11:54:36,738 - ERROR - Failed to process file with ID 153.
+2025-07-12 11:54:39,520 - INFO - Summarizing images...
+2025-07-12 11:54:39,520 - INFO - Saving documents to vector store...
+2025-07-12 11:54:40,641 - ERROR - Error preparing data for RAG: (psycopg2.OperationalError) SSL SYSCALL error: EOF detected
+
+[SQL: SELECT langchain_pg_collection.name AS langchain_pg_collection_name, langchain_pg_collection.cmetadata AS langchain_pg_collection_cmetadata, langchain_pg_collection.uuid AS langchain_pg_collection_uuid 
+FROM langchain_pg_collection 
+WHERE langchain_pg_collection.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 'my_docs', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-12 11:54:40,641 - ERROR - Failed to process file with ID 153.
+2025-07-12 11:58:28,880 - INFO - Received process request for file ID: 153
+2025-07-12 11:58:28,997 - INFO - Processing file with ID: 153
+2025-07-12 11:58:29,022 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:58:29,024 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:58:29,024 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:58:29,965 - INFO - Received process request for file ID: 153
+2025-07-12 11:58:29,992 - INFO - Processing file with ID: 153
+2025-07-12 11:58:30,016 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:58:30,018 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:58:30,018 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:58:31,113 - INFO - Received process request for file ID: 153
+2025-07-12 11:58:31,604 - INFO - Processing file with ID: 153
+2025-07-12 11:58:31,622 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:58:31,623 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:58:31,623 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:58:32,955 - INFO - Received process request for file ID: 153
+2025-07-12 11:58:34,472 - INFO - Processing file with ID: 153
+2025-07-12 11:58:34,487 - INFO - Received process request for file ID: 153
+2025-07-12 11:58:34,511 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:58:34,516 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:58:34,517 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:58:35,313 - INFO - Processing file with ID: 153
+2025-07-12 11:58:35,351 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 11:58:35,356 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 11:58:35,356 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 11:59:01,048 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:59:01,048 - INFO - Saving data to vector database...
+2025-07-12 11:59:01,048 - INFO - Summarizing tables and texts...
+2025-07-12 11:59:02,293 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:59:02,293 - INFO - Saving data to vector database...
+2025-07-12 11:59:02,293 - INFO - Summarizing tables and texts...
+2025-07-12 11:59:03,572 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:59:03,572 - INFO - Saving data to vector database...
+2025-07-12 11:59:03,572 - INFO - Summarizing tables and texts...
+2025-07-12 11:59:04,237 - INFO - Summarizing images...
+2025-07-12 11:59:04,238 - INFO - Saving documents to vector store...
+2025-07-12 11:59:04,494 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:59:04,494 - INFO - Saving data to vector database...
+2025-07-12 11:59:04,494 - INFO - Summarizing tables and texts...
+2025-07-12 11:59:04,847 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 11:59:04,848 - INFO - Saving data to vector database...
+2025-07-12 11:59:04,848 - INFO - Summarizing tables and texts...
+2025-07-12 11:59:05,706 - INFO - Summarizing images...
+2025-07-12 11:59:05,707 - INFO - Saving documents to vector store...
+2025-07-12 11:59:06,174 - INFO - Documents saved to vector store.
+2025-07-12 11:59:06,174 - INFO - Saving 1 texts to the database.
+2025-07-12 11:59:06,194 - INFO - File with ID 153 processed successfully.
+2025-07-12 11:59:06,887 - INFO - Summarizing images...
+2025-07-12 11:59:06,888 - INFO - Saving documents to vector store...
+2025-07-12 11:59:07,094 - INFO - Documents saved to vector store.
+2025-07-12 11:59:07,094 - INFO - Saving 1 texts to the database.
+2025-07-12 11:59:07,122 - INFO - File with ID 153 processed successfully.
+2025-07-12 11:59:07,828 - INFO - Documents saved to vector store.
+2025-07-12 11:59:07,829 - INFO - Saving 1 texts to the database.
+2025-07-12 11:59:07,850 - INFO - File with ID 153 processed successfully.
+2025-07-12 11:59:08,082 - INFO - Summarizing images...
+2025-07-12 11:59:08,083 - INFO - Saving documents to vector store...
+2025-07-12 11:59:08,754 - INFO - Summarizing images...
+2025-07-12 11:59:08,755 - INFO - Saving documents to vector store...
+2025-07-12 11:59:09,647 - INFO - Documents saved to vector store.
+2025-07-12 11:59:09,647 - INFO - Saving 1 texts to the database.
+2025-07-12 11:59:09,669 - INFO - File with ID 153 processed successfully.
+2025-07-12 11:59:09,687 - INFO - Documents saved to vector store.
+2025-07-12 11:59:09,688 - INFO - Saving 1 texts to the database.
+2025-07-12 11:59:09,710 - INFO - File with ID 153 processed successfully.
+2025-07-12 11:59:47,415 - INFO - Received process request for file ID: 154
+2025-07-12 11:59:47,446 - INFO - Processing file with ID: 154
+2025-07-12 11:59:47,481 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 11:59:47,482 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 11:59:47,483 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 11:59:48,358 - INFO - Received process request for file ID: 154
+2025-07-12 11:59:48,385 - INFO - Processing file with ID: 154
+2025-07-12 11:59:48,427 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 11:59:48,427 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 11:59:48,428 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 11:59:49,533 - INFO - Received process request for file ID: 154
+2025-07-12 11:59:49,940 - INFO - Processing file with ID: 154
+2025-07-12 11:59:49,978 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 11:59:49,979 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 11:59:49,979 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 11:59:50,578 - INFO - Received process request for file ID: 154
+2025-07-12 11:59:51,051 - INFO - Processing file with ID: 154
+2025-07-12 11:59:51,092 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 11:59:51,093 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 11:59:51,093 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 11:59:51,817 - INFO - Received process request for file ID: 154
+2025-07-12 11:59:52,568 - INFO - Processing file with ID: 154
+2025-07-12 11:59:52,623 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 11:59:52,628 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 11:59:52,628 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 12:03:34,349 - INFO - Received process request for file ID: 154
+2025-07-12 12:03:34,351 - ERROR - Error processing file with ID 154: process_file_task() takes 1 positional argument but 2 were given
+2025-07-12 12:03:43,091 - INFO - Received process request for file ID: 154
+2025-07-12 12:03:43,092 - ERROR - Error processing file with ID 154: process_file_task() takes 1 positional argument but 2 were given
+2025-07-12 12:04:09,578 - INFO - Received process request for file ID: 154
+2025-07-12 12:04:11,323 - INFO - Received process request for file ID: 154
+2025-07-12 12:04:13,055 - INFO - Received process request for file ID: 154
+2025-07-12 12:04:51,042 - INFO - Received process request for file ID: 154
+2025-07-12 12:04:51,070 - INFO - Processing file with ID: 154
+2025-07-12 12:04:51,117 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 12:04:51,118 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 12:04:51,118 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 12:04:52,906 - INFO - Received process request for file ID: 154
+2025-07-12 12:04:52,937 - INFO - Processing file with ID: 154
+2025-07-12 12:04:52,989 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 12:04:52,989 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 12:04:52,989 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 12:04:54,667 - INFO - Received process request for file ID: 154
+2025-07-12 12:04:55,176 - INFO - Processing file with ID: 154
+2025-07-12 12:04:55,220 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 12:04:55,221 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 12:04:55,221 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 12:04:56,817 - INFO - Received process request for file ID: 154
+2025-07-12 12:04:57,328 - INFO - Processing file with ID: 154
+2025-07-12 12:04:57,371 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 12:04:57,371 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 12:04:57,372 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 14:18:00,442 - INFO - Received process request for file ID: 154
+2025-07-12 14:18:00,541 - INFO - Processing file with ID: 154
+2025-07-12 14:18:00,581 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 14:18:00,582 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 14:18:00,582 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 14:18:01,834 - INFO - Received process request for file ID: 154
+2025-07-12 14:18:01,861 - INFO - Processing file with ID: 154
+2025-07-12 14:18:01,913 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 14:18:01,914 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 14:18:01,914 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 14:19:38,771 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 14:19:38,771 - INFO - Saving data to vector database...
+2025-07-12 14:19:38,771 - INFO - Summarizing tables and texts...
+2025-07-12 14:19:40,110 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 14:19:40,110 - INFO - Saving data to vector database...
+2025-07-12 14:19:40,111 - INFO - Summarizing tables and texts...
+2025-07-12 14:19:49,957 - INFO - Summarizing images...
+2025-07-12 14:19:50,368 - INFO - Summarizing images...
+2025-07-12 14:20:03,061 - INFO - Saving documents to vector store...
+2025-07-12 14:20:04,282 - INFO - Saving documents to vector store...
+2025-07-12 14:20:06,876 - INFO - Documents saved to vector store.
+2025-07-12 14:20:06,876 - INFO - Saving 12 texts to the database.
+2025-07-12 14:20:07,084 - INFO - Saving 7 images to the database.
+2025-07-12 14:20:07,199 - INFO - File with ID 154 processed successfully.
+2025-07-12 14:20:07,606 - INFO - Documents saved to vector store.
+2025-07-12 14:20:07,607 - INFO - Saving 12 texts to the database.
+2025-07-12 14:20:07,810 - INFO - Saving 7 images to the database.
+2025-07-12 14:20:07,924 - INFO - File with ID 154 processed successfully.
+2025-07-12 14:51:27,107 - INFO - Received process request for file ID: 153
+2025-07-12 14:51:27,267 - INFO - Processing file with ID: 153
+2025-07-12 14:51:27,289 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 14:51:27,290 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 14:51:27,290 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 14:51:36,540 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 14:51:36,540 - INFO - Saving data to vector database...
+2025-07-12 14:51:36,540 - INFO - Summarizing tables and texts...
+2025-07-12 14:51:39,982 - INFO - Summarizing images...
+2025-07-12 14:51:39,983 - INFO - Saving documents to vector store...
+2025-07-12 14:51:41,124 - INFO - Documents saved to vector store.
+2025-07-12 14:51:41,124 - INFO - Saving 1 texts to the database.
+2025-07-12 14:51:41,143 - INFO - File with ID 153 processed successfully.
+2025-07-12 14:51:47,938 - INFO - Received process request for file ID: 153
+2025-07-12 14:51:47,969 - INFO - Processing file with ID: 153
+2025-07-12 14:51:47,992 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 14:51:47,993 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 14:51:47,993 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 14:51:57,691 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 14:51:57,691 - INFO - Saving data to vector database...
+2025-07-12 14:51:57,691 - INFO - Summarizing tables and texts...
+2025-07-12 14:52:00,667 - INFO - Summarizing images...
+2025-07-12 14:52:00,667 - INFO - Saving documents to vector store...
+2025-07-12 14:52:02,422 - INFO - Documents saved to vector store.
+2025-07-12 14:52:02,423 - INFO - Saving 1 texts to the database.
+2025-07-12 14:52:02,444 - INFO - File with ID 153 processed successfully.
+2025-07-12 14:53:08,830 - INFO - Received process request for file ID: 153
+2025-07-12 14:53:08,973 - INFO - Processing file with ID: 153
+2025-07-12 14:53:08,992 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 14:53:08,993 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 14:53:08,994 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 14:53:17,569 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 14:53:17,569 - INFO - Saving data to vector database...
+2025-07-12 14:53:17,569 - INFO - Summarizing tables and texts...
+2025-07-12 14:53:20,544 - INFO - Summarizing images...
+2025-07-12 14:53:20,544 - INFO - Saving documents to vector store...
+2025-07-12 14:53:21,990 - INFO - Documents saved to vector store.
+2025-07-12 14:53:21,991 - INFO - Saving 1 texts to the database.
+2025-07-12 14:53:22,011 - INFO - File with ID 153 processed successfully.
+2025-07-12 14:53:29,242 - INFO - File with ID 153 has already been processed.
+2025-07-12 14:53:32,098 - INFO - File with ID 153 has already been processed.
+2025-07-12 14:57:42,733 - INFO - Received process request for file ID: 154
+2025-07-12 14:57:42,868 - INFO - Processing file with ID: 154
+2025-07-12 14:57:42,914 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 14:57:42,915 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 14:57:42,915 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 14:58:59,734 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 14:58:59,735 - INFO - Saving data to vector database...
+2025-07-12 14:58:59,735 - INFO - Summarizing tables and texts...
+2025-07-12 14:59:11,580 - INFO - Summarizing images...
+2025-07-12 14:59:24,172 - INFO - Saving documents to vector store...
+2025-07-12 14:59:27,285 - INFO - Documents saved to vector store.
+2025-07-12 14:59:27,285 - INFO - Saving 12 texts to the database.
+2025-07-12 14:59:27,507 - INFO - Saving 7 images to the database.
+2025-07-12 14:59:27,631 - INFO - File with ID 154 processed successfully.
+2025-07-12 15:13:19,703 - INFO - Received process request for file ID: 154
+2025-07-12 15:13:19,756 - INFO - Processing file with ID: 154
+2025-07-12 15:13:19,792 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 15:13:19,793 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 15:13:19,793 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 15:13:23,326 - INFO - File 154 is already being processed.
+2025-07-12 15:13:32,353 - INFO - File 154 is already being processed.
+2025-07-12 15:14:33,748 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 15:14:33,748 - INFO - Saving data to vector database...
+2025-07-12 15:14:33,748 - INFO - Summarizing tables and texts...
+2025-07-12 15:14:39,264 - INFO - File 154 is already being processed.
+2025-07-12 15:14:45,671 - INFO - Summarizing images...
+2025-07-12 15:14:59,494 - INFO - Saving documents to vector store...
+2025-07-12 15:15:02,502 - INFO - Documents saved to vector store.
+2025-07-12 15:15:02,503 - INFO - Saving 12 texts to the database.
+2025-07-12 15:15:02,722 - INFO - Saving 7 images to the database.
+2025-07-12 15:15:02,843 - INFO - File with ID 154 processed successfully.
+2025-07-12 15:15:06,285 - INFO - File 154 is already being processed.
+2025-07-12 15:15:10,602 - INFO - File 154 is already being processed.
+2025-07-12 15:15:36,478 - INFO - Received process request for file ID: 153
+2025-07-12 15:15:36,508 - INFO - Processing file with ID: 153
+2025-07-12 15:15:36,529 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 15:15:36,529 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 15:15:36,530 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 15:15:38,310 - INFO - File 153 is already being processed.
+2025-07-12 15:15:41,866 - INFO - File 153 is already being processed.
+2025-07-12 15:15:46,829 - INFO - File 153 is already being processed.
+2025-07-12 15:15:50,538 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 15:15:50,539 - INFO - Saving data to vector database...
+2025-07-12 15:15:50,539 - INFO - Summarizing tables and texts...
+2025-07-12 15:15:53,981 - INFO - Summarizing images...
+2025-07-12 15:15:53,982 - INFO - Saving documents to vector store...
+2025-07-12 15:15:55,110 - INFO - Documents saved to vector store.
+2025-07-12 15:15:55,110 - INFO - Saving 1 texts to the database.
+2025-07-12 15:15:55,132 - INFO - File with ID 153 processed successfully.
+2025-07-12 15:15:55,137 - INFO - Removed Redis key: processing:153
+2025-07-12 15:15:57,203 - INFO - File with ID 153 has already been processed.
+2025-07-12 15:15:58,916 - INFO - File with ID 153 has already been processed.
+2025-07-12 15:22:24,855 - INFO - Received process request for file ID: 153
+2025-07-12 15:22:24,923 - INFO - Processing file with ID: 153
+2025-07-12 15:22:24,944 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 15:22:24,945 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 15:22:24,946 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 15:22:34,231 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 15:22:34,231 - INFO - Saving data to vector database...
+2025-07-12 15:22:34,231 - INFO - Summarizing tables and texts...
+2025-07-12 15:22:37,426 - INFO - Summarizing images...
+2025-07-12 15:22:37,427 - INFO - Saving documents to vector store...
+2025-07-12 15:22:38,564 - INFO - Documents saved to vector store.
+2025-07-12 15:22:38,564 - INFO - Saving 1 texts to the database.
+2025-07-12 15:22:38,586 - INFO - File with ID 153 processed successfully.
+2025-07-12 15:22:38,589 - INFO - Removed Redis key: processing:153
+2025-07-12 15:22:48,349 - INFO - File with ID 153 has already been processed.
+2025-07-12 15:22:53,045 - INFO - File 154 is already being processed.
+2025-07-12 15:23:47,581 - INFO - File 154 is already being processed.
+2025-07-12 15:26:47,814 - INFO - Received process request for file ID: 154
+2025-07-12 15:28:03,217 - INFO - Received process request for file ID: 154
+2025-07-12 15:28:03,275 - INFO - Processing file with ID: 154
+2025-07-12 15:28:03,320 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 15:28:03,321 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 15:28:03,321 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 15:28:07,677 - INFO - File 154 is already being processed.
+2025-07-12 15:28:14,958 - INFO - File 154 is already being processed.
+2025-07-12 15:29:35,107 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 15:29:35,108 - INFO - Saving data to vector database...
+2025-07-12 15:29:35,108 - INFO - Summarizing tables and texts...
+2025-07-12 15:29:46,598 - INFO - Summarizing images...
+2025-07-12 15:30:00,111 - INFO - Saving documents to vector store...
+2025-07-12 15:30:00,161 - ERROR - Error preparing data for RAG: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = integer
+LINE 3: WHERE langchain_pg_collection.name = 154 
+                                           ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT langchain_pg_collection.name AS langchain_pg_collection_name, langchain_pg_collection.cmetadata AS langchain_pg_collection_cmetadata, langchain_pg_collection.uuid AS langchain_pg_collection_uuid 
+FROM langchain_pg_collection 
+WHERE langchain_pg_collection.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 154, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-12 15:30:00,161 - ERROR - Failed to process file with ID 154.
+2025-07-12 15:30:00,164 - INFO - Redis key processing:154 does not exist.
+2025-07-12 15:32:36,996 - INFO - Received process request for file ID: 153
+2025-07-12 15:32:37,057 - INFO - Processing file with ID: 153
+2025-07-12 15:32:37,081 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 15:32:37,083 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 15:32:37,084 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 15:32:52,987 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 15:32:52,987 - INFO - Saving data to vector database...
+2025-07-12 15:32:52,988 - INFO - Summarizing tables and texts...
+2025-07-12 15:32:56,460 - INFO - Summarizing images...
+2025-07-12 15:32:56,462 - INFO - Saving documents to vector store...
+2025-07-12 15:32:56,517 - ERROR - Error preparing data for RAG: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = integer
+LINE 3: WHERE langchain_pg_collection.name = 153 
+                                           ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT langchain_pg_collection.name AS langchain_pg_collection_name, langchain_pg_collection.cmetadata AS langchain_pg_collection_cmetadata, langchain_pg_collection.uuid AS langchain_pg_collection_uuid 
+FROM langchain_pg_collection 
+WHERE langchain_pg_collection.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 153, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-12 15:32:56,517 - ERROR - Failed to process file with ID 153.
+2025-07-12 15:32:56,521 - INFO - Removed Redis key: processing:153
+2025-07-12 15:33:57,966 - INFO - Received process request for file ID: 153
+2025-07-12 15:33:58,040 - INFO - Processing file with ID: 153
+2025-07-12 15:33:58,065 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 15:33:58,066 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 15:33:58,066 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 15:34:07,121 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 15:34:07,121 - INFO - Saving data to vector database...
+2025-07-12 15:34:07,121 - INFO - Summarizing tables and texts...
+2025-07-12 15:34:10,169 - INFO - Summarizing images...
+2025-07-12 15:34:10,169 - INFO - Saving documents to vector store...
+2025-07-12 15:34:10,192 - ERROR - Error preparing data for RAG: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = integer
+LINE 3: WHERE langchain_pg_collection.name = 153 
+                                           ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT langchain_pg_collection.name AS langchain_pg_collection_name, langchain_pg_collection.cmetadata AS langchain_pg_collection_cmetadata, langchain_pg_collection.uuid AS langchain_pg_collection_uuid 
+FROM langchain_pg_collection 
+WHERE langchain_pg_collection.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 153, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-12 15:34:10,193 - ERROR - Failed to process file with ID 153.
+2025-07-12 15:34:10,196 - INFO - Removed Redis key: processing:153
+2025-07-12 15:34:45,568 - INFO - Received process request for file ID: 153
+2025-07-12 15:34:45,642 - INFO - Processing file with ID: 153
+2025-07-12 15:34:45,665 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 15:34:45,667 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 15:34:45,667 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 15:34:59,878 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 15:34:59,878 - INFO - Saving data to vector database...
+2025-07-12 15:34:59,878 - INFO - Summarizing tables and texts...
+2025-07-12 15:35:03,114 - INFO - Summarizing images...
+2025-07-12 15:35:03,115 - INFO - Saving documents to vector store...
+2025-07-12 15:35:04,146 - INFO - Documents saved to vector store.
+2025-07-12 15:35:04,146 - INFO - Saving 1 texts to the database.
+2025-07-12 15:35:04,168 - INFO - File with ID 153 processed successfully.
+2025-07-12 15:35:04,174 - INFO - Removed Redis key: processing:153
+2025-07-12 15:35:48,980 - INFO - Received process request for file ID: 154
+2025-07-12 15:35:49,013 - INFO - Processing file with ID: 154
+2025-07-12 15:35:49,049 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 15:35:49,050 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 15:35:49,050 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 15:37:04,345 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 15:37:04,345 - INFO - Saving data to vector database...
+2025-07-12 15:37:04,345 - INFO - Summarizing tables and texts...
+2025-07-12 15:37:16,320 - INFO - Summarizing images...
+2025-07-12 15:37:30,943 - INFO - Saving documents to vector store...
+2025-07-12 15:37:33,267 - INFO - Documents saved to vector store.
+2025-07-12 15:37:33,267 - INFO - Saving 12 texts to the database.
+2025-07-12 15:37:33,503 - INFO - Saving 7 images to the database.
+2025-07-12 15:37:33,634 - INFO - File with ID 154 processed successfully.
+2025-07-12 15:37:33,637 - INFO - Removed Redis key: processing:154
+2025-07-12 15:47:22,941 - INFO - Received process request for file ID: 153
+2025-07-12 15:47:23,015 - INFO - Processing file with ID: 153
+2025-07-12 15:47:23,039 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 15:47:23,040 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 15:47:23,040 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 15:47:37,754 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 15:47:37,755 - INFO - Saving data to vector database...
+2025-07-12 15:47:37,755 - INFO - Summarizing tables and texts...
+2025-07-12 15:47:40,932 - INFO - Summarizing images...
+2025-07-12 15:47:40,933 - INFO - Saving documents to vector store...
+2025-07-12 15:47:41,988 - ERROR - Error preparing data for RAG: (psycopg2.errors.UndefinedColumn) column "id" of relation "langchain_pg_embedding" does not exist
+LINE 1: INSERT INTO langchain_pg_embedding (id, collection_id, embed...
+                                            ^
+
+[SQL: INSERT INTO langchain_pg_embedding (id, collection_id, embedding, document, cmetadata) VALUES (%(id_m0)s, %(collection_id_m0)s::UUID, %(embedding_m0)s, %(document_m0)s, %(cmetadata_m0)s::JSONB) ON CONFLICT (id) DO UPDATE SET embedding = excluded.embedding, document = excluded.document, cmetadata = excluded.cmetadata]
+[parameters: {'id_m0': 'f472cf1e-7b76-439c-af53-6f8f2ea729be', 'collection_id_m0': UUID('301e4220-ce1c-4dd7-94a8-51a0e448b097'), 'embedding_m0': '[-0.02553633600473404,-0.056593168526887894,-0.0018785025458782911,-0.024099715054035187,-0.001235856907442212,-0.003882104065269232,0.01359139941632 ... (65550 characters truncated) ... 0.011718950234353542,0.015851251780986786,0.007340485695749521,0.024244990199804306,-0.012824663892388344,0.006674636155366898,-0.006363906431943178]', 'document_m0': 'Invoice for Ky Cuong Pham for work performed from 09/06/2025 to 20/06/2025, totaling 48 hours at a rate of AUD 40 per hour. Work primarily involved v ... (110 characters truncated) ...  Tasks included debugging, syncing, API research, code transfer, logging, error catching, and database operations. Total invoice amount is AUD 1,920.', 'cmetadata_m0': '{"chunk_id": "3e118548-7fff-4f1a-af47-d3b64b729040"}'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-12 15:47:41,988 - ERROR - Failed to process file with ID 153.
+2025-07-12 15:47:41,994 - INFO - Removed Redis key: processing:153
+2025-07-12 15:50:44,053 - INFO - Received process request for file ID: 153
+2025-07-12 15:50:44,117 - INFO - Processing file with ID: 153
+2025-07-12 15:50:44,143 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf
+2025-07-12 15:50:44,144 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf, Name: INVOICE NO. 44250623023.docx
+2025-07-12 15:50:44,144 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/153.pdf...
+2025-07-12 15:50:57,338 - INFO - Tables found: 0, Texts found: 1, Images found: 0
+2025-07-12 15:50:57,338 - INFO - Saving data to vector database...
+2025-07-12 15:50:57,338 - INFO - Summarizing tables and texts...
+2025-07-12 15:51:01,017 - INFO - Summarizing images...
+2025-07-12 15:51:01,017 - INFO - Saving documents to vector store...
+2025-07-12 15:51:02,176 - INFO - Documents saved to vector store.
+2025-07-12 15:51:02,177 - INFO - Saving 1 texts to the database.
+2025-07-12 15:51:02,199 - INFO - File with ID 153 processed successfully.
+2025-07-12 15:51:02,202 - INFO - Removed Redis key: processing:153
+2025-07-12 16:08:21,779 - INFO - Received process request for file ID: 154
+2025-07-12 16:08:21,813 - INFO - Processing file with ID: 154
+2025-07-12 16:08:21,856 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 16:08:21,860 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 16:08:21,860 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 16:09:34,432 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 16:09:34,432 - INFO - Saving data to vector database...
+2025-07-12 16:09:34,432 - INFO - Summarizing tables and texts...
+2025-07-12 16:09:45,530 - INFO - Summarizing images...
+2025-07-12 16:09:59,085 - INFO - Saving documents to vector store...
+2025-07-12 16:10:01,907 - INFO - Documents saved to vector store.
+2025-07-12 16:10:01,907 - INFO - Saving 12 texts to the database.
+2025-07-12 16:10:02,119 - INFO - Saving 7 images to the database.
+2025-07-12 16:10:02,247 - INFO - File with ID 154 processed successfully.
+2025-07-12 16:10:02,250 - INFO - Removed Redis key: processing:154
+2025-07-12 17:49:11,421 - INFO - Received ask request: AskRequestDTO(fileID=154, question='Who is the vice chairman of Samsung?')
+2025-07-12 17:49:32,999 - INFO - Received ask request: AskRequestDTO(fileID=154, question='Who are the authors?')
+2025-07-12 17:51:55,730 - INFO - Received ask request: AskRequestDTO(fileID=154, question='Who are the authors?')
+2025-07-12 17:54:28,925 - INFO - Received ask request: AskRequestDTO(fileID=154, question='Explain me how to build a transformer ')
+2025-07-12 17:55:56,810 - INFO - Received ask request: AskRequestDTO(fileID=154, question='Explain me how to build a transformer ')
+2025-07-12 18:03:18,629 - INFO - File with ID 154 has already been processed.
+2025-07-12 21:59:42,745 - INFO - Chunking file: downloads/154.pdf...
+2025-07-12 22:11:36,134 - INFO - Received process request for file ID: 154
+2025-07-12 22:11:36,216 - INFO - Processing file with ID: 154
+2025-07-12 22:11:36,267 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 22:11:36,268 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 22:11:36,268 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 22:12:57,716 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 22:12:57,716 - INFO - Saving data to vector database...
+2025-07-12 22:12:57,716 - INFO - Summarizing tables and texts...
+2025-07-12 22:13:09,710 - INFO - Summarizing images...
+2025-07-12 22:13:23,062 - INFO - Saving documents to vector store...
+2025-07-12 22:13:26,189 - INFO - Documents saved to vector store.
+2025-07-12 22:13:26,189 - INFO - Saving 12 texts to the database.
+2025-07-12 22:13:26,436 - INFO - Saving 7 images to the database.
+2025-07-12 22:13:26,436 - ERROR - Error saving image chunk 0 for file ID 154: 'NoneType' object is not iterable
+2025-07-12 22:13:26,436 - ERROR - Error saving image chunk 1 for file ID 154: 'NoneType' object is not iterable
+2025-07-12 22:13:26,437 - ERROR - Error saving image chunk 2 for file ID 154: 'NoneType' object is not iterable
+2025-07-12 22:13:26,437 - ERROR - Error saving image chunk 3 for file ID 154: 'NoneType' object is not iterable
+2025-07-12 22:13:26,437 - ERROR - Error saving image chunk 4 for file ID 154: 'NoneType' object is not iterable
+2025-07-12 22:13:26,437 - ERROR - Error saving image chunk 5 for file ID 154: 'NoneType' object is not iterable
+2025-07-12 22:13:26,437 - ERROR - Error saving image chunk 6 for file ID 154: 'NoneType' object is not iterable
+2025-07-12 22:13:26,437 - INFO - File with ID 154 processed successfully.
+2025-07-12 22:13:26,442 - INFO - Removed Redis key: processing:154
+2025-07-12 22:15:43,240 - INFO - Received process request for file ID: 154
+2025-07-12 22:15:43,298 - INFO - Processing file with ID: 154
+2025-07-12 22:15:43,333 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 22:15:43,334 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 22:15:43,334 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 22:16:18,901 - INFO - Removed Redis key: processing:154
+2025-07-12 22:16:44,166 - INFO - Received process request for file ID: 154
+2025-07-12 22:16:44,255 - INFO - Processing file with ID: 154
+2025-07-12 22:16:44,302 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 22:16:44,304 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 22:16:44,304 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 22:18:02,530 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 22:18:02,530 - INFO - Saving data to vector database...
+2025-07-12 22:18:02,530 - INFO - Summarizing tables and texts...
+2025-07-12 22:18:13,549 - INFO - Summarizing images...
+2025-07-12 22:18:26,025 - INFO - Saving documents to vector store...
+2025-07-12 22:18:29,995 - INFO - Documents saved to vector store.
+2025-07-12 22:18:29,996 - INFO - Saving 12 texts to the database.
+2025-07-12 22:18:30,233 - INFO - Saving 7 images to the database.
+2025-07-12 22:18:30,244 - ERROR - An error occurred while executing the query: can't adapt type 'dict'
+2025-07-12 22:18:30,257 - ERROR - An error occurred while executing the query: can't adapt type 'dict'
+2025-07-12 22:18:30,271 - ERROR - An error occurred while executing the query: can't adapt type 'dict'
+2025-07-12 22:18:30,285 - ERROR - An error occurred while executing the query: can't adapt type 'dict'
+2025-07-12 22:18:30,299 - ERROR - An error occurred while executing the query: can't adapt type 'dict'
+2025-07-12 22:18:30,311 - ERROR - An error occurred while executing the query: can't adapt type 'dict'
+2025-07-12 22:18:30,324 - ERROR - An error occurred while executing the query: can't adapt type 'dict'
+2025-07-12 22:18:30,325 - INFO - File with ID 154 processed successfully.
+2025-07-12 22:18:30,330 - INFO - Removed Redis key: processing:154
+2025-07-12 22:20:24,861 - INFO - Received process request for file ID: 154
+2025-07-12 22:20:24,931 - INFO - Processing file with ID: 154
+2025-07-12 22:20:24,979 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf
+2025-07-12 22:20:24,982 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf, Name: attention_is_all_you_need.pdf
+2025-07-12 22:20:24,983 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/154.pdf...
+2025-07-12 22:21:41,972 - INFO - Tables found: 0, Texts found: 12, Images found: 7
+2025-07-12 22:21:41,972 - INFO - Saving data to vector database...
+2025-07-12 22:21:41,972 - INFO - Summarizing tables and texts...
+2025-07-12 22:21:53,822 - INFO - Summarizing images...
+2025-07-12 22:22:08,056 - INFO - Saving documents to vector store...
+2025-07-12 22:22:10,257 - INFO - Documents saved to vector store.
+2025-07-12 22:22:10,258 - INFO - Saving 12 texts to the database.
+2025-07-12 22:22:10,468 - INFO - Saving 7 images to the database.
+2025-07-12 22:22:10,617 - INFO - File with ID 154 processed successfully.
+2025-07-12 22:22:10,624 - INFO - Removed Redis key: processing:154
+2025-07-12 22:24:25,367 - INFO - Chunking file: downloads/154.pdf...

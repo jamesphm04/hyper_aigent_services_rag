@@ -1,0 +1,38 @@
+2025-06-28 10:09:56,505 - INFO - Received ask request: AskRequestDTO(chatID=114, question='Who is the vice chairman of Samsung?')
+2025-06-28 10:10:51,367 - INFO - Received ask request: AskRequestDTO(chatID=114, question='Who is the vice chairman of Samsung?')
+2025-06-28 10:11:02,562 - INFO - Received ask request: AskRequestDTO(chatID=114, question='Who is the vice chairman of Samsung?')
+2025-06-28 10:11:37,691 - INFO - Received ask request: AskRequestDTO(chatID=114, question='Who is the vice chairman of Samsung?')
+2025-06-28 10:36:04,339 - INFO - Received convert request for file ID: 545423452345
+2025-06-28 10:38:14,035 - INFO - Received convert request for file ID: 102
+2025-06-28 10:38:40,189 - INFO - Received convert request for file ID: 102
+2025-06-28 10:50:33,627 - INFO - Received convert request for file ID: 102
+2025-06-28 11:59:52,301 - ERROR - Error downloading file with ID 102 to local storage: tuple index out of range
+2025-06-28 12:01:23,290 - INFO - File with ID 102 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/INVOICE NO. 44250623023.docx.pdf
+2025-06-28 12:01:34,389 - INFO - File with ID 102 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/INVOICE NO. 44250623023.docx.pdf
+2025-06-28 12:05:11,907 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/INVOICE NO. 44250623023.docx
+2025-06-28 12:10:27,116 - ERROR - Error converting file with ID 153 to PDF: 'ConvertService' object has no attribute 'doc_to_pdf'
+2025-06-28 12:10:47,526 - INFO - Temporary DOCX file created at: /tmp/tmpd8teby0q.docx
+2025-06-28 12:10:49,301 - ERROR - An error occurred while executing the query: syntax error at or near ","
+LINE 2:                     SET content = 172471 WHERE id = 153,
+                                                               ^
+
+2025-06-28 12:11:37,452 - INFO - Temporary DOCX file created at: /tmp/tmpgtgrhrck.docx
+2025-06-28 12:11:38,599 - ERROR - An error occurred while executing the query: syntax error at or near ","
+LINE 2:                     SET content = 172472 WHERE id = 153,
+                                                               ^
+
+2025-06-28 12:12:44,505 - INFO - Temporary DOCX file created at: /tmp/tmp361f1jdc.docx
+2025-06-28 12:13:05,274 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/INVOICE NO. 44250623023.docx
+2025-06-28 12:13:13,961 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/INVOICE NO. 44250623023.docx
+2025-06-28 12:14:24,900 - INFO - Temporary DOCX file created at: /tmp/tmp3co9t48h.docx
+2025-06-28 12:14:27,497 - ERROR - Error downloading file with ID 153 to local storage: [Errno 20] Not a directory: '/home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/INVOICE NO. 44250623023.docx/.pdf'
+2025-06-28 12:14:49,964 - INFO - Temporary DOCX file created at: /tmp/tmpqz6x0ay9.docx
+2025-06-28 12:14:51,720 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/name.pdf
+2025-06-28 12:15:11,584 - INFO - Temporary DOCX file created at: /tmp/tmpcfbj36_l.docx
+2025-06-28 12:15:13,873 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/INVOICE NO. 44250623023.docx.pdf
+2025-06-28 12:15:27,374 - INFO - File with ID 153 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/INVOICE NO. 44250623023.docx.pdf
+2025-06-28 12:21:17,287 - INFO - Received convert request for file ID: 153
+2025-06-28 12:21:17,291 - INFO - Temporary DOCX file created at: /tmp/tmpn686w1cz.docx
+2025-06-28 12:21:31,824 - INFO - Received convert request for file ID: 115
+2025-06-28 12:21:31,825 - ERROR - File with ID 115 not found or conversion failed.
+2025-06-28 15:27:50,733 - INFO - File with ID 154 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/attention_is_all_you_need.pdf.pdf
