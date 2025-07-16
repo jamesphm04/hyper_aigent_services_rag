@@ -3467,3 +3467,413 @@ Trying again in 12.00 seconds... (6/100)
 [2025-07-13 09:38:44,140: INFO/MainProcess] mingle: searching for neighbors
 [2025-07-13 09:38:45,157: INFO/MainProcess] mingle: all alone
 [2025-07-13 09:38:45,188: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-14 18:53:47,786: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-07-14 18:53:47,799: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-14 18:53:48,814: INFO/MainProcess] mingle: all alone
+[2025-07-14 18:53:48,848: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-14 18:53:48,854: INFO/MainProcess] Task app.celery.tasks.process_file_task[67e14c84-e52b-4cc4-bee8-d70033479df3] received
+[2025-07-14 18:53:48,856: INFO/ForkPoolWorker-1] Processing file with ID: 202
+[2025-07-14 18:53:48,859: INFO/MainProcess] Task app.celery.tasks.process_file_task[f6a9dd41-ac0e-479e-bd13-6278129339cc] received
+[2025-07-14 18:53:48,860: INFO/ForkPoolWorker-2] Processing file with ID: 252
+[2025-07-14 18:53:48,862: INFO/MainProcess] Task app.celery.tasks.process_file_task[324859a7-0051-46de-a853-74a97f3673de] received
+[2025-07-14 18:53:48,862: INFO/MainProcess] Scaling up 1 processes.
+[2025-07-14 18:53:48,880: INFO/ForkPoolWorker-1] File with ID 202 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/202.pdf
+[2025-07-14 18:53:48,881: INFO/ForkPoolWorker-1] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/202.pdf, Name: a1906313_b.pdf
+[2025-07-14 18:53:48,881: INFO/ForkPoolWorker-1] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/202.pdf...
+[2025-07-14 18:53:48,882: INFO/ForkPoolWorker-2] File with ID 252 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/252.pdf
+[2025-07-14 18:53:48,882: INFO/ForkPoolWorker-2] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/252.pdf, Name: BDAP_A1.pdf
+[2025-07-14 18:53:48,883: INFO/ForkPoolWorker-2] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/252.pdf...
+[2025-07-14 18:53:48,895: INFO/ForkPoolWorker-2] pikepdf C++ to Python logger bridge initialized
+[2025-07-14 18:53:48,895: INFO/ForkPoolWorker-1] pikepdf C++ to Python logger bridge initialized
+[2025-07-14 18:53:49,324: INFO/ForkPoolWorker-3] Processing file with ID: 253
+[2025-07-14 18:53:49,345: INFO/ForkPoolWorker-3] File with ID 253 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/253.pdf
+[2025-07-14 18:53:49,345: INFO/ForkPoolWorker-3] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/253.pdf, Name: a1906313_b.pdf
+[2025-07-14 18:53:49,345: INFO/ForkPoolWorker-3] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/253.pdf...
+[2025-07-14 18:53:49,349: INFO/ForkPoolWorker-3] pikepdf C++ to Python logger bridge initialized
+[2025-07-14 18:53:51,540: INFO/ForkPoolWorker-1] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/202.pdf ...
+[2025-07-14 18:53:51,560: INFO/ForkPoolWorker-3] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/253.pdf ...
+[2025-07-14 18:53:51,580: INFO/ForkPoolWorker-2] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/252.pdf ...
+[2025-07-14 18:54:21,690: INFO/MainProcess] Task app.celery.tasks.process_file_task[3eb4cbe6-290f-427f-92df-acd9b2e50b1c] received
+[2025-07-14 18:54:21,691: INFO/MainProcess] Scaling up 1 processes.
+[2025-07-14 18:54:23,083: INFO/ForkPoolWorker-4] Processing file with ID: 254
+[2025-07-14 18:54:23,155: INFO/ForkPoolWorker-4] File with ID 254 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/254.pdf
+[2025-07-14 18:54:23,166: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/254.pdf, Name: MBD_2025_Tri1_assignment3b_group10_report (1).pdf
+[2025-07-14 18:54:23,167: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/254.pdf...
+[2025-07-14 18:54:23,186: INFO/ForkPoolWorker-4] pikepdf C++ to Python logger bridge initialized
+[2025-07-14 18:54:31,345: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/254.pdf ...
+[2025-07-14 18:54:36,975: INFO/ForkPoolWorker-3] Loading the Table agent ...
+[2025-07-14 18:54:36,975: INFO/ForkPoolWorker-1] Loading the Table agent ...
+[2025-07-14 18:54:37,008: INFO/ForkPoolWorker-2] Loading the Table agent ...
+[2025-07-14 18:54:37,329: WARNING/ForkPoolWorker-3] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-14 18:54:37,329: WARNING/ForkPoolWorker-1] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-14 18:54:37,330: INFO/ForkPoolWorker-3] Loading the table structure model ...
+[2025-07-14 18:54:37,330: INFO/ForkPoolWorker-1] Loading the table structure model ...
+[2025-07-14 18:54:37,355: WARNING/ForkPoolWorker-2] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-14 18:54:37,355: INFO/ForkPoolWorker-2] Loading the table structure model ...
+[2025-07-14 18:54:38,024: INFO/ForkPoolWorker-2] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-14 18:54:38,026: INFO/ForkPoolWorker-1] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-14 18:54:38,039: INFO/ForkPoolWorker-3] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-14 18:54:38,277: INFO/ForkPoolWorker-1] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-14 18:54:38,277: INFO/ForkPoolWorker-2] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-14 18:54:38,279: INFO/ForkPoolWorker-3] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-14 18:54:38,290: INFO/ForkPoolWorker-1] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-14 18:54:38,290: INFO/ForkPoolWorker-2] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-14 18:54:38,291: INFO/ForkPoolWorker-3] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-14 18:54:54,978: INFO/ForkPoolWorker-3] Tables found: 0, Texts found: 4, Images found: 5
+[2025-07-14 18:54:54,979: INFO/ForkPoolWorker-3] Saving data to vector database...
+[2025-07-14 18:54:54,979: INFO/ForkPoolWorker-3] Summarizing tables and texts...
+[2025-07-14 18:54:54,985: INFO/ForkPoolWorker-1] Tables found: 0, Texts found: 4, Images found: 5
+[2025-07-14 18:54:54,985: INFO/ForkPoolWorker-1] Saving data to vector database...
+[2025-07-14 18:54:54,985: INFO/ForkPoolWorker-1] Summarizing tables and texts...
+[2025-07-14 18:54:56,685: INFO/ForkPoolWorker-2] Tables found: 0, Texts found: 4, Images found: 1
+[2025-07-14 18:54:56,686: INFO/ForkPoolWorker-2] Saving data to vector database...
+[2025-07-14 18:54:56,686: INFO/ForkPoolWorker-2] Summarizing tables and texts...
+[2025-07-14 18:54:57,821: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:54:57,892: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:54:58,038: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:54:58,118: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:54:58,238: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:54:58,364: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:54:59,575: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:00,189: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:00,260: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:00,280: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:00,288: INFO/ForkPoolWorker-1] Summarizing images...
+[2025-07-14 18:55:00,906: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:00,915: INFO/ForkPoolWorker-2] Summarizing images...
+[2025-07-14 18:55:02,134: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:02,231: INFO/ForkPoolWorker-3] Summarizing images...
+[2025-07-14 18:55:05,411: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:07,010: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:07,164: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:07,168: INFO/ForkPoolWorker-2] Saving documents to vector store...
+[2025-07-14 18:55:07,197: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:07,418: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:07,873: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:07,879: INFO/ForkPoolWorker-1] Saving documents to vector store...
+[2025-07-14 18:55:08,176: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:08,176: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 18:55:09,097: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:09,104: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 18:55:09,303: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:09,305: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:09,507: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 18:55:09,665: INFO/ForkPoolWorker-2] Documents saved to vector store.
+[2025-07-14 18:55:09,665: INFO/ForkPoolWorker-2] Saving 4 texts to the database.
+[2025-07-14 18:55:09,772: INFO/ForkPoolWorker-2] Saving 1 images to the database.
+[2025-07-14 18:55:09,801: INFO/ForkPoolWorker-2] File with ID 252 processed successfully.
+[2025-07-14 18:55:09,808: INFO/ForkPoolWorker-2] Removed Redis key: processing:252
+[2025-07-14 18:55:09,821: INFO/ForkPoolWorker-2] Task app.celery.tasks.process_file_task[f6a9dd41-ac0e-479e-bd13-6278129339cc] succeeded in 80.96090618200105s: {'status': 'success', 'file_id': 252}
+[2025-07-14 18:55:09,995: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:55:10,003: INFO/ForkPoolWorker-3] Saving documents to vector store...
+[2025-07-14 18:55:10,399: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 18:55:10,787: INFO/ForkPoolWorker-1] Documents saved to vector store.
+[2025-07-14 18:55:10,788: INFO/ForkPoolWorker-1] Saving 4 texts to the database.
+[2025-07-14 18:55:10,916: INFO/ForkPoolWorker-1] Saving 5 images to the database.
+[2025-07-14 18:55:11,028: INFO/ForkPoolWorker-1] File with ID 202 processed successfully.
+[2025-07-14 18:55:11,034: INFO/ForkPoolWorker-1] Redis key processing:202 does not exist.
+[2025-07-14 18:55:11,040: INFO/ForkPoolWorker-1] Task app.celery.tasks.process_file_task[67e14c84-e52b-4cc4-bee8-d70033479df3] succeeded in 82.18468676900011s: {'status': 'success', 'file_id': 202}
+[2025-07-14 18:55:11,045: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 18:55:12,079: INFO/ForkPoolWorker-3] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 18:55:12,497: INFO/ForkPoolWorker-3] Documents saved to vector store.
+[2025-07-14 18:55:12,497: INFO/ForkPoolWorker-3] Saving 4 texts to the database.
+[2025-07-14 18:55:12,620: INFO/ForkPoolWorker-3] Saving 5 images to the database.
+[2025-07-14 18:55:12,740: INFO/ForkPoolWorker-3] File with ID 253 processed successfully.
+[2025-07-14 18:55:12,746: INFO/ForkPoolWorker-3] Removed Redis key: processing:253
+[2025-07-14 18:55:12,764: INFO/ForkPoolWorker-3] Task app.celery.tasks.process_file_task[324859a7-0051-46de-a853-74a97f3673de] succeeded in 83.43973186400035s: {'status': 'success', 'file_id': 253}
+[2025-07-14 18:55:18,850: INFO/MainProcess] Scaling down 2 processes.
+[2025-07-14 18:55:28,050: INFO/ForkPoolWorker-4] Loading the Table agent ...
+[2025-07-14 18:55:28,321: WARNING/ForkPoolWorker-4] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-14 18:55:28,321: INFO/ForkPoolWorker-4] Loading the table structure model ...
+[2025-07-14 18:55:29,063: INFO/ForkPoolWorker-4] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-14 18:55:29,301: INFO/ForkPoolWorker-4] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-14 18:55:29,309: INFO/ForkPoolWorker-4] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-14 18:56:30,717: INFO/ForkPoolWorker-4] Tables found: 0, Texts found: 17, Images found: 20
+[2025-07-14 18:56:30,717: INFO/ForkPoolWorker-4] Saving data to vector database...
+[2025-07-14 18:56:30,717: INFO/ForkPoolWorker-4] Summarizing tables and texts...
+[2025-07-14 18:56:33,682: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:33,741: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:34,296: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:34,308: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:34,603: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:36,630: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:37,265: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:37,573: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:38,289: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:38,801: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:40,444: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:41,161: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:42,078: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:42,284: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:42,795: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:44,160: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:46,175: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:46,182: INFO/ForkPoolWorker-4] Summarizing images...
+[2025-07-14 18:56:50,065: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:52,934: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:53,651: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:53,651: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:54,265: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:55,698: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:56:59,719: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:00,613: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:00,735: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:01,694: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:01,702: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:06,860: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:07,167: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:07,679: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:09,325: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:10,292: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:12,700: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:13,823: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:13,889: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:15,564: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 18:57:15,573: INFO/ForkPoolWorker-4] Saving documents to vector store...
+[2025-07-14 18:57:16,588: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 18:57:17,714: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 18:57:18,003: INFO/ForkPoolWorker-4] Documents saved to vector store.
+[2025-07-14 18:57:18,003: INFO/ForkPoolWorker-4] Saving 17 texts to the database.
+[2025-07-14 18:57:18,343: INFO/ForkPoolWorker-4] Saving 20 images to the database.
+[2025-07-14 18:57:18,695: INFO/ForkPoolWorker-4] File with ID 254 processed successfully.
+[2025-07-14 18:57:18,699: INFO/ForkPoolWorker-4] Removed Redis key: processing:254
+[2025-07-14 18:57:18,703: INFO/ForkPoolWorker-4] Task app.celery.tasks.process_file_task[3eb4cbe6-290f-427f-92df-acd9b2e50b1c] succeeded in 175.62043098799768s: {'status': 'success', 'file_id': 254}
+[2025-07-14 20:03:19,187: INFO/MainProcess] Task app.celery.tasks.process_file_task[b78242a2-93b0-4fa1-8703-c6e8bf042c43] received
+[2025-07-14 20:03:19,188: INFO/ForkPoolWorker-4] Processing file with ID: 255
+[2025-07-14 20:03:19,211: INFO/ForkPoolWorker-4] File with ID 255 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/255.pdf
+[2025-07-14 20:03:19,212: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/255.pdf, Name: INVOICE NO. 44250707024.docx.pdf
+[2025-07-14 20:03:19,212: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/255.pdf...
+[2025-07-14 20:03:19,225: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:03:19,229: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:03:19,488: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/255.pdf ...
+[2025-07-14 20:03:22,552: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:03:22,555: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:03:26,937: INFO/ForkPoolWorker-4] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-14 20:03:26,937: INFO/ForkPoolWorker-4] Saving data to vector database...
+[2025-07-14 20:03:26,937: INFO/ForkPoolWorker-4] Summarizing tables and texts...
+[2025-07-14 20:03:29,888: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:03:29,889: INFO/ForkPoolWorker-4] Summarizing images...
+[2025-07-14 20:03:29,890: INFO/ForkPoolWorker-4] Saving documents to vector store...
+[2025-07-14 20:03:30,503: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 20:03:30,615: INFO/ForkPoolWorker-4] Documents saved to vector store.
+[2025-07-14 20:03:30,615: INFO/ForkPoolWorker-4] Saving 1 texts to the database.
+[2025-07-14 20:03:30,642: INFO/ForkPoolWorker-4] File with ID 255 processed successfully.
+[2025-07-14 20:03:30,644: INFO/ForkPoolWorker-4] Removed Redis key: processing:255
+[2025-07-14 20:03:30,646: INFO/ForkPoolWorker-4] Task app.celery.tasks.process_file_task[b78242a2-93b0-4fa1-8703-c6e8bf042c43] succeeded in 11.458656510003493s: {'status': 'success', 'file_id': 255}
+[2025-07-14 20:07:17,715: INFO/MainProcess] Task app.celery.tasks.process_file_task[f022bf89-f7d0-4140-bb00-d45f9d08cca4] received
+[2025-07-14 20:07:17,715: INFO/ForkPoolWorker-4] Processing file with ID: 302
+[2025-07-14 20:07:17,739: INFO/ForkPoolWorker-4] File with ID 302 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/302.pdf
+[2025-07-14 20:07:17,740: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/302.pdf, Name: INVOICE NO. 44250707024.docx.pdf
+[2025-07-14 20:07:17,740: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/302.pdf...
+[2025-07-14 20:07:17,760: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:07:17,767: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:07:17,994: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/302.pdf ...
+[2025-07-14 20:07:21,629: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:07:21,632: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:07:25,942: INFO/ForkPoolWorker-4] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-14 20:07:25,943: INFO/ForkPoolWorker-4] Saving data to vector database...
+[2025-07-14 20:07:25,943: INFO/ForkPoolWorker-4] Summarizing tables and texts...
+[2025-07-14 20:07:29,298: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:07:29,299: INFO/ForkPoolWorker-4] Summarizing images...
+[2025-07-14 20:07:29,300: INFO/ForkPoolWorker-4] Saving documents to vector store...
+[2025-07-14 20:07:30,118: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 20:07:30,341: INFO/ForkPoolWorker-4] Documents saved to vector store.
+[2025-07-14 20:07:30,341: INFO/ForkPoolWorker-4] Saving 1 texts to the database.
+[2025-07-14 20:07:30,360: INFO/ForkPoolWorker-4] File with ID 302 processed successfully.
+[2025-07-14 20:07:30,363: INFO/ForkPoolWorker-4] Removed Redis key: processing:302
+[2025-07-14 20:07:30,366: INFO/ForkPoolWorker-4] Task app.celery.tasks.process_file_task[f022bf89-f7d0-4140-bb00-d45f9d08cca4] succeeded in 12.650444962993788s: {'status': 'success', 'file_id': 302}
+[2025-07-14 20:09:51,230: INFO/MainProcess] Task app.celery.tasks.process_file_task[a93b041d-af95-491e-8038-5496f568c7f1] received
+[2025-07-14 20:09:51,231: INFO/ForkPoolWorker-4] Processing file with ID: 303
+[2025-07-14 20:09:51,256: INFO/ForkPoolWorker-4] File with ID 303 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/303.pdf
+[2025-07-14 20:09:51,258: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/303.pdf, Name: INVOICE NO. 44250623023.docx.pdf
+[2025-07-14 20:09:51,259: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/303.pdf...
+[2025-07-14 20:09:51,280: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:09:51,288: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:09:51,539: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/303.pdf ...
+[2025-07-14 20:09:54,635: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:09:54,638: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:09:58,866: INFO/ForkPoolWorker-4] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-14 20:09:58,866: INFO/ForkPoolWorker-4] Saving data to vector database...
+[2025-07-14 20:09:58,866: INFO/ForkPoolWorker-4] Summarizing tables and texts...
+[2025-07-14 20:10:01,568: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:10:01,570: INFO/ForkPoolWorker-4] Summarizing images...
+[2025-07-14 20:10:01,571: INFO/ForkPoolWorker-4] Saving documents to vector store...
+[2025-07-14 20:10:02,078: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 20:10:02,172: INFO/ForkPoolWorker-4] Documents saved to vector store.
+[2025-07-14 20:10:02,172: INFO/ForkPoolWorker-4] Saving 1 texts to the database.
+[2025-07-14 20:10:02,191: INFO/ForkPoolWorker-4] File with ID 303 processed successfully.
+[2025-07-14 20:10:02,193: INFO/ForkPoolWorker-4] Removed Redis key: processing:303
+[2025-07-14 20:10:02,195: INFO/ForkPoolWorker-4] Task app.celery.tasks.process_file_task[a93b041d-af95-491e-8038-5496f568c7f1] succeeded in 10.96412936699926s: {'status': 'success', 'file_id': 303}
+[2025-07-14 20:10:40,281: INFO/MainProcess] Task app.celery.tasks.process_file_task[b72a1483-6e1f-47ed-82c4-9a4fe7bdb79b] received
+[2025-07-14 20:10:40,282: INFO/ForkPoolWorker-4] Processing file with ID: 304
+[2025-07-14 20:10:40,303: INFO/ForkPoolWorker-4] File with ID 304 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/304.pdf
+[2025-07-14 20:10:40,304: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/304.pdf, Name: INVOICE NO. 44250707024.docx.pdf
+[2025-07-14 20:10:40,305: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/304.pdf...
+[2025-07-14 20:10:40,324: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:10:40,327: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:10:40,544: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/304.pdf ...
+[2025-07-14 20:10:44,089: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:10:44,092: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:10:48,320: INFO/ForkPoolWorker-4] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-14 20:10:48,320: INFO/ForkPoolWorker-4] Saving data to vector database...
+[2025-07-14 20:10:48,320: INFO/ForkPoolWorker-4] Summarizing tables and texts...
+[2025-07-14 20:11:00,855: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:11:00,856: INFO/ForkPoolWorker-4] Summarizing images...
+[2025-07-14 20:11:00,857: INFO/ForkPoolWorker-4] Saving documents to vector store...
+[2025-07-14 20:11:01,669: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 20:11:01,890: INFO/ForkPoolWorker-4] Documents saved to vector store.
+[2025-07-14 20:11:01,890: INFO/ForkPoolWorker-4] Saving 1 texts to the database.
+[2025-07-14 20:11:01,912: INFO/ForkPoolWorker-4] File with ID 304 processed successfully.
+[2025-07-14 20:11:01,914: INFO/ForkPoolWorker-4] Removed Redis key: processing:304
+[2025-07-14 20:11:01,918: INFO/ForkPoolWorker-4] Task app.celery.tasks.process_file_task[b72a1483-6e1f-47ed-82c4-9a4fe7bdb79b] succeeded in 21.63624781299586s: {'status': 'success', 'file_id': 304}
+[2025-07-14 20:11:34,095: INFO/MainProcess] Task app.celery.tasks.process_file_task[d978f2a9-bcd8-4b2b-ad48-3c5e93d3725f] received
+[2025-07-14 20:11:34,096: INFO/ForkPoolWorker-4] Processing file with ID: 305
+[2025-07-14 20:11:34,117: INFO/ForkPoolWorker-4] File with ID 305 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/305.pdf
+[2025-07-14 20:11:34,118: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/305.pdf, Name: INVOICE NO. 44250623023.docx.pdf
+[2025-07-14 20:11:34,118: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/305.pdf...
+[2025-07-14 20:11:34,134: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:11:34,139: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:11:34,364: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/305.pdf ...
+[2025-07-14 20:11:37,973: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:11:37,976: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:11:42,204: INFO/ForkPoolWorker-4] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-14 20:11:42,204: INFO/ForkPoolWorker-4] Saving data to vector database...
+[2025-07-14 20:11:42,205: INFO/ForkPoolWorker-4] Summarizing tables and texts...
+[2025-07-14 20:11:45,194: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:11:45,195: INFO/ForkPoolWorker-4] Summarizing images...
+[2025-07-14 20:11:45,196: INFO/ForkPoolWorker-4] Saving documents to vector store...
+[2025-07-14 20:11:45,706: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 20:11:45,928: INFO/ForkPoolWorker-4] Documents saved to vector store.
+[2025-07-14 20:11:45,928: INFO/ForkPoolWorker-4] Saving 1 texts to the database.
+[2025-07-14 20:11:45,947: INFO/ForkPoolWorker-4] File with ID 305 processed successfully.
+[2025-07-14 20:11:45,949: INFO/ForkPoolWorker-4] Removed Redis key: processing:305
+[2025-07-14 20:11:45,952: INFO/ForkPoolWorker-4] Task app.celery.tasks.process_file_task[d978f2a9-bcd8-4b2b-ad48-3c5e93d3725f] succeeded in 11.85531707300106s: {'status': 'success', 'file_id': 305}
+[2025-07-14 20:12:10,650: INFO/MainProcess] Task app.celery.tasks.process_file_task[774b8fec-7133-4b01-8a03-420e7725761e] received
+[2025-07-14 20:12:10,651: INFO/ForkPoolWorker-4] Processing file with ID: 306
+[2025-07-14 20:12:10,674: INFO/ForkPoolWorker-4] File with ID 306 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/306.pdf
+[2025-07-14 20:12:10,676: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/306.pdf, Name: INVOICE NO. 44250707024.docx.pdf
+[2025-07-14 20:12:10,676: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/306.pdf...
+[2025-07-14 20:12:10,695: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:12:10,702: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:12:11,145: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/306.pdf ...
+[2025-07-14 20:12:14,785: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:12:14,788: WARNING/ForkPoolWorker-4] Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
+[2025-07-14 20:12:18,869: INFO/ForkPoolWorker-4] Tables found: 0, Texts found: 1, Images found: 0
+[2025-07-14 20:12:18,869: INFO/ForkPoolWorker-4] Saving data to vector database...
+[2025-07-14 20:12:18,870: INFO/ForkPoolWorker-4] Summarizing tables and texts...
+[2025-07-14 20:12:21,311: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:12:21,314: INFO/ForkPoolWorker-4] Summarizing images...
+[2025-07-14 20:12:21,315: INFO/ForkPoolWorker-4] Saving documents to vector store...
+[2025-07-14 20:12:22,365: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 20:12:22,477: INFO/ForkPoolWorker-4] Documents saved to vector store.
+[2025-07-14 20:12:22,477: INFO/ForkPoolWorker-4] Saving 1 texts to the database.
+[2025-07-14 20:12:22,497: INFO/ForkPoolWorker-4] File with ID 306 processed successfully.
+[2025-07-14 20:12:22,499: INFO/ForkPoolWorker-4] Removed Redis key: processing:306
+[2025-07-14 20:12:22,502: INFO/ForkPoolWorker-4] Task app.celery.tasks.process_file_task[774b8fec-7133-4b01-8a03-420e7725761e] succeeded in 11.85046489299566s: {'status': 'success', 'file_id': 306}
+[2025-07-14 20:23:44,317: INFO/MainProcess] Task app.celery.tasks.process_file_task[cd0f7448-ab3a-402a-880b-a2d88acf5171] received
+[2025-07-14 20:23:44,318: INFO/ForkPoolWorker-4] Processing file with ID: 307
+[2025-07-14 20:23:44,338: INFO/ForkPoolWorker-4] File with ID 307 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/307.pdf
+[2025-07-14 20:23:44,339: INFO/ForkPoolWorker-4] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/307.pdf, Name: BDAP_A1.pdf
+[2025-07-14 20:23:44,339: INFO/ForkPoolWorker-4] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/307.pdf...
+[2025-07-14 20:23:44,707: INFO/ForkPoolWorker-4] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/307.pdf ...
+[2025-07-14 20:24:07,682: INFO/ForkPoolWorker-4] Tables found: 0, Texts found: 4, Images found: 1
+[2025-07-14 20:24:07,682: INFO/ForkPoolWorker-4] Saving data to vector database...
+[2025-07-14 20:24:07,682: INFO/ForkPoolWorker-4] Summarizing tables and texts...
+[2025-07-14 20:24:10,687: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:24:10,705: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:24:11,540: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:24:11,916: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:24:11,920: INFO/ForkPoolWorker-4] Summarizing images...
+[2025-07-14 20:24:17,138: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:24:17,140: INFO/ForkPoolWorker-4] Saving documents to vector store...
+[2025-07-14 20:24:18,558: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 20:24:20,092: INFO/ForkPoolWorker-4] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 20:24:20,184: INFO/ForkPoolWorker-4] Documents saved to vector store.
+[2025-07-14 20:24:20,184: INFO/ForkPoolWorker-4] Saving 4 texts to the database.
+[2025-07-14 20:24:20,248: INFO/ForkPoolWorker-4] Saving 1 images to the database.
+[2025-07-14 20:24:20,264: INFO/ForkPoolWorker-4] File with ID 307 processed successfully.
+[2025-07-14 20:24:20,266: INFO/ForkPoolWorker-4] Removed Redis key: processing:307
+[2025-07-14 20:24:20,269: INFO/ForkPoolWorker-4] Task app.celery.tasks.process_file_task[cd0f7448-ab3a-402a-880b-a2d88acf5171] succeeded in 35.95106676999421s: {'status': 'success', 'file_id': 307}
+[2025-07-14 20:25:54,404: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-07-14 20:25:54,411: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-14 20:25:55,427: INFO/MainProcess] mingle: all alone
+[2025-07-14 20:25:55,464: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-14 20:26:36,157: INFO/MainProcess] Task app.celery.tasks.process_file_task[5281a721-5378-4cf5-b9dd-788e250cd893] received
+[2025-07-14 20:26:36,159: INFO/ForkPoolWorker-1] Processing file with ID: 308
+[2025-07-14 20:26:36,190: INFO/ForkPoolWorker-1] File with ID 308 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/308.pdf
+[2025-07-14 20:26:36,191: INFO/ForkPoolWorker-1] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/308.pdf, Name: BDAP_A1.pdf
+[2025-07-14 20:26:36,192: INFO/ForkPoolWorker-1] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/308.pdf...
+[2025-07-14 20:26:36,203: INFO/ForkPoolWorker-1] pikepdf C++ to Python logger bridge initialized
+[2025-07-14 20:26:38,094: INFO/ForkPoolWorker-1] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/308.pdf ...
+[2025-07-14 20:26:51,726: INFO/ForkPoolWorker-1] Loading the Table agent ...
+[2025-07-14 20:26:52,002: WARNING/ForkPoolWorker-1] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-14 20:26:52,002: INFO/ForkPoolWorker-1] Loading the table structure model ...
+[2025-07-14 20:26:52,627: INFO/ForkPoolWorker-1] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-14 20:26:52,897: INFO/ForkPoolWorker-1] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-14 20:26:52,903: INFO/ForkPoolWorker-1] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-14 20:27:03,823: INFO/ForkPoolWorker-1] Tables found: 0, Texts found: 4, Images found: 1
+[2025-07-14 20:27:03,824: INFO/ForkPoolWorker-1] Saving data to vector database...
+[2025-07-14 20:27:03,824: INFO/ForkPoolWorker-1] Summarizing tables and texts...
+[2025-07-14 20:27:06,720: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:27:08,154: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:27:08,768: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:27:11,356: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:27:11,359: INFO/ForkPoolWorker-1] Summarizing images...
+[2025-07-14 20:27:18,701: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-14 20:27:18,703: INFO/ForkPoolWorker-1] Saving documents to vector store...
+[2025-07-14 20:27:19,727: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 20:27:20,278: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-14 20:27:20,458: INFO/ForkPoolWorker-1] Documents saved to vector store.
+[2025-07-14 20:27:20,458: INFO/ForkPoolWorker-1] Saving 4 texts to the database.
+[2025-07-14 20:27:20,529: INFO/ForkPoolWorker-1] Saving 1 images to the database.
+[2025-07-14 20:27:20,546: INFO/ForkPoolWorker-1] File with ID 308 processed successfully.
+[2025-07-14 20:27:20,550: INFO/ForkPoolWorker-1] Removed Redis key: processing:308
+[2025-07-14 20:27:20,557: INFO/ForkPoolWorker-1] Task app.celery.tasks.process_file_task[5281a721-5378-4cf5-b9dd-788e250cd893] succeeded in 44.39793962499971s: {'status': 'success', 'file_id': 308}
+[2025-07-15 22:18:36,481: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 2.00 seconds... (1/100)
+
+[2025-07-15 22:18:38,483: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 111 connecting to localhost:6379. Connection refused..
+Trying again in 4.00 seconds... (2/100)
+
+[2025-07-15 22:18:42,509: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-07-15 22:18:42,523: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-15 22:18:43,552: INFO/MainProcess] mingle: all alone
+[2025-07-15 22:18:43,621: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-15 22:19:01,377: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-07-15 22:19:01,384: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-15 22:19:02,402: INFO/MainProcess] mingle: all alone
+[2025-07-15 22:19:02,427: INFO/MainProcess] celery@james-laptop ready.
+[2025-07-15 22:22:13,497: INFO/MainProcess] Task app.celery.tasks.process_file_task[83495c74-1d8b-491e-8e8f-8ff72b9701e7] received
+[2025-07-15 22:22:13,498: INFO/ForkPoolWorker-1] Processing file with ID: 352
+[2025-07-15 22:22:13,522: INFO/ForkPoolWorker-1] File with ID 352 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/352.pdf
+[2025-07-15 22:22:13,523: INFO/ForkPoolWorker-1] File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/352.pdf, Name: COMP_SCI_7319OL_Creating a Successful Project.pdf
+[2025-07-15 22:22:13,524: INFO/ForkPoolWorker-1] Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/352.pdf...
+[2025-07-15 22:22:13,558: INFO/ForkPoolWorker-1] pikepdf C++ to Python logger bridge initialized
+[2025-07-15 22:22:15,433: INFO/ForkPoolWorker-1] Reading PDF for file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/352.pdf ...
+[2025-07-15 22:22:29,006: INFO/ForkPoolWorker-1] Loading the Table agent ...
+[2025-07-15 22:22:29,308: WARNING/ForkPoolWorker-1] The `max_size` parameter is deprecated and will be removed in v4.26. Please specify in `size['longest_edge'] instead`.
+[2025-07-15 22:22:29,308: INFO/ForkPoolWorker-1] Loading the table structure model ...
+[2025-07-15 22:22:29,862: INFO/ForkPoolWorker-1] Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[2025-07-15 22:22:30,108: INFO/ForkPoolWorker-1] [timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-15 22:22:30,120: INFO/ForkPoolWorker-1] Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2025-07-15 22:22:38,749: INFO/ForkPoolWorker-1] Tables found: 0, Texts found: 5, Images found: 3
+[2025-07-15 22:22:38,749: INFO/ForkPoolWorker-1] Saving data to vector database...
+[2025-07-15 22:22:38,749: INFO/ForkPoolWorker-1] Summarizing tables and texts...
+[2025-07-15 22:22:42,123: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-15 22:22:42,221: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-15 22:22:42,386: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-15 22:22:42,427: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-15 22:22:43,717: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-15 22:22:43,721: INFO/ForkPoolWorker-1] Summarizing images...
+[2025-07-15 22:22:47,202: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-15 22:22:47,711: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-15 22:22:50,582: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[2025-07-15 22:22:50,585: INFO/ForkPoolWorker-1] Saving documents to vector store...
+[2025-07-15 22:22:55,801: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-15 22:22:57,543: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-07-15 22:22:57,977: INFO/ForkPoolWorker-1] Documents saved to vector store.
+[2025-07-15 22:22:57,977: INFO/ForkPoolWorker-1] Saving 5 texts to the database.
+[2025-07-15 22:22:58,078: INFO/ForkPoolWorker-1] Saving 3 images to the database.
+[2025-07-15 22:22:58,144: INFO/ForkPoolWorker-1] File with ID 352 processed successfully.
+[2025-07-15 22:22:58,149: INFO/ForkPoolWorker-1] Removed Redis key: processing:352
+[2025-07-15 22:22:58,155: INFO/ForkPoolWorker-1] Task app.celery.tasks.process_file_task[83495c74-1d8b-491e-8e8f-8ff72b9701e7] succeeded in 44.65653591800219s: {'status': 'success', 'file_id': 352}

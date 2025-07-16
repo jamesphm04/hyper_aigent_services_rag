@@ -197,6 +197,15 @@ class RAGService:
         
         self.id_key = "chunk_id"
         
+    def file_exists(self, file_id: int) -> bool:
+        self.logger.info(f"Checking if file with ID {file_id} exists in the database.")
+        exists = self.sql_service.execute_query(
+            "SELECT EXISTS(SELECT 1 FROM public.rag_original_chunks WHERE document_id = %s)",
+            (file_id,),
+            fetchone=True
+        )
+        return exists[0] if exists else False
+        
         
     def sumarize_tables_and_texts(self, tables, texts):
         self.logger.info("Summarizing tables and texts...")

@@ -23,3 +23,5 @@
 2025-07-13 09:40:26,450 - ERROR - Error processing ask request: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.2.image.source.base64: invalid base64 data'}}
 2025-07-13 10:04:55,613 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is transformer')
 2025-07-13 10:06:14,656 - INFO - Received ask request: AskRequestDTO(fileID=153, question='What is transformer')
+2025-07-13 22:02:00,755 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is transformer?')
+2025-07-13 22:02:25,489 - INFO - Received ask request: AskRequestDTO(fileID=154, question='What is transformer?')

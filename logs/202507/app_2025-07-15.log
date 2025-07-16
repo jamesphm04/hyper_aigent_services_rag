@@ -1,0 +1,27 @@
+2025-07-15 22:19:56,145 - INFO - Received ask request: AskRequestDTO(fileID=352, question='How to understand the question ?')
+2025-07-15 22:19:56,147 - ERROR - Error processing ask request: 'SQLService' object has no attribute 'file_exists'
+2025-07-15 22:22:13,401 - INFO - Received ask request: AskRequestDTO(fileID=352, question='How to understand the question ?')
+2025-07-15 22:22:13,402 - INFO - Checking if file with ID 352 exists in the database.
+2025-07-15 22:22:13,425 - ERROR - File with ID 352 does not exist. Processing the file now, please try again later in a few minutes.
+2025-07-15 22:22:13,498 - INFO - Processing file with ID: 352
+2025-07-15 22:22:13,522 - INFO - File with ID 352 downloaded to /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/352.pdf
+2025-07-15 22:22:13,523 - INFO - File downloaded: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/352.pdf, Name: COMP_SCI_7319OL_Creating a Successful Project.pdf
+2025-07-15 22:22:13,524 - INFO - Chunking file: /home/james/MyFolder/code/hyper_aigent/hyper_aigent_services_rag/downloads/352.pdf...
+2025-07-15 22:22:38,749 - INFO - Tables found: 0, Texts found: 5, Images found: 3
+2025-07-15 22:22:38,749 - INFO - Saving data to vector database...
+2025-07-15 22:22:38,749 - INFO - Summarizing tables and texts...
+2025-07-15 22:22:43,721 - INFO - Summarizing images...
+2025-07-15 22:22:46,573 - INFO - Received ask request: AskRequestDTO(fileID=352, question='xHow to understand the question ?')
+2025-07-15 22:22:46,574 - INFO - File 352 is already being processed.
+2025-07-15 22:22:50,585 - INFO - Saving documents to vector store...
+2025-07-15 22:22:57,977 - INFO - Documents saved to vector store.
+2025-07-15 22:22:57,977 - INFO - Saving 5 texts to the database.
+2025-07-15 22:22:58,078 - INFO - Saving 3 images to the database.
+2025-07-15 22:22:58,144 - INFO - File with ID 352 processed successfully.
+2025-07-15 22:22:58,149 - INFO - Removed Redis key: processing:352
+2025-07-15 22:23:00,779 - INFO - Received ask request: AskRequestDTO(fileID=352, question='How to understand the question ?')
+2025-07-15 22:23:00,780 - INFO - Checking if file with ID 352 exists in the database.
+2025-07-15 22:23:09,437 - INFO - Answer generated: AnswerDTO(answer='Answer: To understand the question, you need to:\n\n1. Answer the question as intended\n2. Understand the purpose of the question\n3. Recognize that the question is linked to:\n   - Learning outcomes\n   - Course material you have been taught\n\nSupporting Evidence:\n"It is very important that you answer the question as intended. This may seem obvious, but to do this properly, you must understand the purpose of the question. The questions in this course will be linked to the learning outcomes, as well as the material you have been taught. The intent of these questions is to test whether you have understood the learning material."\n\nAdditional Guidance:\n- If you are unsure about the question, it is recommended to clarify with the tutor\n- Ensure you comprehend the specific context and learning objectives behind the question\n\nLimitations:\nThe context provides general guidance on understanding questions but does not offer specific techniques for question interpretation beyond these key principles.', location=['file_location_placeholder'])
+2025-07-15 22:24:11,247 - INFO - Received ask request: AskRequestDTO(fileID=253, question='what is the title >')
+2025-07-15 22:24:11,249 - INFO - Checking if file with ID 253 exists in the database.
+2025-07-15 22:24:15,267 - INFO - Answer generated: AnswerDTO(answer='Based on the provided context, the title of the document is "Big Data Analysis".\n\nAnswer: Big Data Analysis\n\nSupporting Evidence:\n- The "Title:" context element directly states "Big Data Analysis"\n\nLimitations: None. The title is clearly specified in the context.', location=['file_location_placeholder'])

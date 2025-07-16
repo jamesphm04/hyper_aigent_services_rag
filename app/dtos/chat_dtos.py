@@ -14,4 +14,5 @@ class AnswerDTO:
 class AskResponseDTO:
     status: str
     message: str
+    task_id: str = None
     data: list[AnswerDTO] = None
