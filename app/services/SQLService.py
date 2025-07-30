@@ -4,14 +4,18 @@ import psycopg2
 from logging import Logger
 from app.entities.DocumentEntity import DocumentEntity
 import json
+from app.config import DATABASE_URL, PG_VECTOR_CONNECTION_STRING
 
 class SQLService:
     def __init__(self, logger: Logger):
         self.logger = logger
-        self.db_config = self._get_db_config()
+        self.db_config = self._get_db_config(DATABASE_URL)
+        print(f"Database config: {self.db_config}")
+        self.vector_db_config = self._get_db_config(PG_VECTOR_CONNECTION_STRING)
+        print(f"Vector database config: {self.vector_db_config}")
 
-    def _get_db_config(self):
-        url = urlparse(os.getenv("DATABASE_URL"))
+    def _get_db_config(self, conn_string: str):
+        url = urlparse(conn_string)
         return {
             "dbname": url.path[1:],
             "user": url.username,
@@ -170,4 +174,43 @@ class SQLService:
             return False
         except Exception as e:
             self.logger.error(f"Error checking if file with ID {file_id} is processed: {e}")
+            return False
+        
+    def delete_langchain_data(self, file_id: int, conn):
+        with conn.cursor() as cur:
+            # Delete LangChain embeddings
+            cur.execute("""
+                DELETE FROM public.langchain_pg_embedding
+                WHERE collection_id = (
+                    SELECT uuid FROM public.langchain_pg_collection WHERE name = %s
+                )
+            """, (str(file_id),))
+
+            # Delete LangChain collection
+            cur.execute("DELETE FROM public.langchain_pg_collection WHERE name = %s", (str(file_id),))
+
+
+    def delete_document_data(self, file_id: int, conn):
+        with conn.cursor() as cur:
+            # Delete RAG chunks
+            cur.execute("DELETE FROM public.rag_original_chunks WHERE document_id = %s", (file_id,))
+            
+            # Delete document
+            cur.execute("DELETE FROM public.documents WHERE id = %s", (file_id,))
+
+
+    def delete_by_id(self, file_id: int):
+        try:
+            with psycopg2.connect(**self.db_config) as conn:
+                self.delete_document_data(file_id, conn)
+                conn.commit()
+
+            with psycopg2.connect(**self.vector_db_config) as conn:
+                self.delete_langchain_data(file_id, conn)
+                conn.commit()
+
+            self.logger.info(f"All data related to file ID {file_id} deleted successfully.")
+            return True
+        except Exception as e:
+            self.logger.error(f"Error deleting all data for file ID {file_id}: {e}")
             return False

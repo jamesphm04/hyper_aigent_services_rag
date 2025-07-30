@@ -70,3 +70,17 @@ def check_for_processing_status(task_id: str):
         return jsonify({"status": "failure", "error": str(task.info)}), 500
     else:
         return jsonify({"status": task.state}), 200
+    
+@file_blueprint.route('/<id>', methods=['DELETE'])
+def delete_file(id: int):
+    
+    print(f"Received delete request for file ID: {id}")
+    logger = current_app.logger
+    sql_service: SQLService = current_app.sql_service
+    
+    try:
+        logger.info(f"Received delete request for file ID: {id}")
+        sql_service.delete_by_id(id)
+        return jsonify({"message": f"File {id} deleted successfully"}), 200
+    except Exception as e:
+        logger.error(f"Error deleting file with ID {id}: {e}")

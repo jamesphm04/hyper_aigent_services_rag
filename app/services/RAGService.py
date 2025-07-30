@@ -15,7 +15,7 @@ from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_core.messages import HumanMessage
 # from app.services.utils import render_page
 from collections import defaultdict
-from config import ANTHROPIC_API_KEY, OPENAI_API_KEY, TOP_K, PG_VECTOR_CONNECTION_STRING
+from app.config import ANTHROPIC_API_KEY, OPENAI_API_KEY, TOP_K, PG_VECTOR_CONNECTION_STRING
 
 def parse_docs(retriever_results: dict) -> dict:
     images = []
