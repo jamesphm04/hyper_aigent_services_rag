@@ -13,14 +13,9 @@ from typing import List
 import json
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_core.messages import HumanMessage
-from app.services.utils import render_page
+# from app.services.utils import render_page
 from collections import defaultdict
-
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_MODEL_NAME = os.getenv("OPENAI_MODEL_NAME")
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-PG_VECTOR_CONNECTION_STRING = os.getenv("PG_VECTOR_CONNECTION_STRING")
-TOP_K = os.getenv("TOP_K", 3)
+from config import ANTHROPIC_API_KEY, OPENAI_API_KEY, TOP_K, PG_VECTOR_CONNECTION_STRING
 
 def parse_docs(retriever_results: dict) -> dict:
     images = []

@@ -13,26 +13,15 @@ from typing import List
 import json
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_core.messages import HumanMessage
-# from app.services.utils import render_page
 from collections import defaultdict
 
-# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-# OPENAI_MODEL_NAME = os.getenv("OPENAI_MODEL_NAME")
-# ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-# PG_VECTOR_CONNECTION_STRING = os.getenv("PG_VECTOR_CONNECTION_STRING")
-# TOP_K = os.getenv("TOP_K", 3)
 from config import OPENAI_API_KEY, ANTHROPIC_API_KEY, PG_VECTOR_CONNECTION_STRING, PG_VECTOR_CONNECTION_STRING_DOCKER, TOP_K
 def parse_docs(retriever_results: dict) -> dict:
     images = []
     texts = []
     
     retrieved_docs = retriever_results["result"]
-    
-    file_id = retriever_results["file_id"]
-    
     for page_number, docs in retrieved_docs.items():
-        
-        # render_page(file_id, docs, page_number, False) #TODO
         
         for doc in docs:
             if doc.metadata.get("type") == "Image":
